@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bab",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "ncb_roadblck:asphalt_road"
+    },
+    "b": {
+      "tag": "c:glass_panes"
+    },
+    "c": {
+      "item": "ncb_roadblck:pattern_steel"
+    }
+  },
+  "result": {
+    "id": "ncb_roadblck:sunglasses",
+    "count": 1
+  }
+}

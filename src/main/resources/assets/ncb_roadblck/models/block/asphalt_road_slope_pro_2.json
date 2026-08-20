@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ncb_roadblck:block/asphalt_road_slope",
+		"particle": "ncb_roadblck:block/asphalt_road_slope"
+	},
+	"elements": [
+		{
+			"from": [0, 1.826, 1.215],
+			"to": [16, 5.826, 17.715],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4.2603, 8.4831]},
+			"faces": {
+				"north": {"uv": [0, 7.25, 4, 8.25], "texture": "#0"},
+				"east": {"uv": [0, 5.25, 4, 6.25], "texture": "#0"},
+				"south": {"uv": [4, 7.25, 8, 8.25], "texture": "#0"},
+				"west": {"uv": [6.25, 5.25, 10.25, 6.25], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#0"}
+			}
+		}
+	]
+}

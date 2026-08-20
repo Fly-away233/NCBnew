@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_parking_1",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_pedestrian_crossing",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_pedestrian_crossing"
+  },
+  "render_type": "cutout"
+}

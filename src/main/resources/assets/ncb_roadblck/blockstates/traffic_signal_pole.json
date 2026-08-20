@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "connection=none,low=false": {
+      "model": "ncb_roadblck:block/traffic_signal_pole"
+    },
+    "connection=none,low=true": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_low"
+    },
+    "connection=up,low=false": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_0"
+    },
+    "connection=up,low=true": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_0_low"
+    },
+    "connection=both,low=false": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_1"
+    },
+    "connection=both,low=true": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_1"
+    },
+    "connection=down,low=false": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_2"
+    },
+    "connection=down,low=true": {
+      "model": "ncb_roadblck:block/traffic_signal_pole_2"
+    }
+  }
+}

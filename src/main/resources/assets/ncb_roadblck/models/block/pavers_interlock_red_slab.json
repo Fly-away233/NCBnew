@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "ncb_roadblck:block/pavers_interlock_red",
+    "bottom": "ncb_roadblck:block/pavers_interlock_red",
+    "top": "ncb_roadblck:block/pavers_interlock_red",
+    "side": "ncb_roadblck:block/pavers_interlock_red"
+  },
+  "render_type": "solid"
+}

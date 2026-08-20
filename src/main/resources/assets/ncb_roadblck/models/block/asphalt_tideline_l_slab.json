@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "ncb_roadblck:block/asphalt_road",
+    "bottom": "ncb_roadblck:block/asphalt_road",
+    "top": "ncb_roadblck:block/asphalt_tideline_l",
+    "side": "ncb_roadblck:block/asphalt_road"
+  },
+  "render_type": "solid"
+}

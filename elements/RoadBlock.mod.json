@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "[NCB]Road Block",
+    "icon": {
+      "value": "CUSTOM:Asphalt3ColorLine"
+    },
+    "showSearch": false
+  }
+}

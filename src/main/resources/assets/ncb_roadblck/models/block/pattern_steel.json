@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ncb_roadblck:block/pattern_steel",
+    "up": "ncb_roadblck:block/pattern_steel",
+    "north": "ncb_roadblck:block/pattern_steel",
+    "east": "ncb_roadblck:block/pattern_steel",
+    "south": "ncb_roadblck:block/pattern_steel",
+    "west": "ncb_roadblck:block/pattern_steel",
+    "particle": "ncb_roadblck:block/pattern_steel"
+  },
+  "render_type": "solid"
+}

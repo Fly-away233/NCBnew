@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:roadsign_stop"
+  },
+  "result": {
+    "id": "ncb_roadblck:roadsign_give_way_to_oncoming_vehicles",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_no_entry",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_end_of_speed_limit_100",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_end_of_speed_limit_100"
+  },
+  "render_type": "cutout"
+}

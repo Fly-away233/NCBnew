@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,low=false": { "model": "ncb_roadblck:block/marking_60_highspeed" },
+    "facing=east,low=false":  { "model": "ncb_roadblck:block/marking_60_highspeed", "y": 90 },
+    "facing=south,low=false": { "model": "ncb_roadblck:block/marking_60_highspeed", "y": 180 },
+    "facing=west,low=false":  { "model": "ncb_roadblck:block/marking_60_highspeed", "y": 270 },
+
+    "facing=north,low=true": { "model": "ncb_roadblck:block/marking_60_highspeed_low" },
+    "facing=east,low=true":  { "model": "ncb_roadblck:block/marking_60_highspeed_low", "y": 90 },
+    "facing=south,low=true": { "model": "ncb_roadblck:block/marking_60_highspeed_low", "y": 180 },
+    "facing=west,low=true":  { "model": "ncb_roadblck:block/marking_60_highspeed_low", "y": 270 }
+  }
+}

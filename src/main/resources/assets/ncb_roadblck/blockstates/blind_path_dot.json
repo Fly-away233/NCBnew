@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ncb_roadblck:block/blind_path_dot"
+    },
+    "facing=east": {
+      "model": "ncb_roadblck:block/blind_path_dot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ncb_roadblck:block/blind_path_dot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ncb_roadblck:block/blind_path_dot",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_3_color_line_link_2",
+  "textures": {
+    "all": "ncb_roadblck:block/asphalt_yield_line",
+    "particle": "ncb_roadblck:block/asphalt_yield_line",
+    "1": "ncb_roadblck:block/asphalt_road",
+    "2": "ncb_roadblck:block/asphalt_yield_line"
+  },
+  "render_type": "solid"
+}

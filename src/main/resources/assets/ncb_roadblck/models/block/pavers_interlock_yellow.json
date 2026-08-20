@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ncb_roadblck:block/pavers_interlock_yellow",
+    "up": "ncb_roadblck:block/pavers_interlock_yellow",
+    "north": "ncb_roadblck:block/pavers_interlock_yellow",
+    "east": "ncb_roadblck:block/pavers_interlock_yellow",
+    "south": "ncb_roadblck:block/pavers_interlock_yellow",
+    "west": "ncb_roadblck:block/pavers_interlock_yellow",
+    "particle": "ncb_roadblck:block/pavers_interlock_yellow"
+  },
+  "render_type": "solid"
+}

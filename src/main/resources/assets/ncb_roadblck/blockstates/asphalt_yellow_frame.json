@@ -1,0 +1,20 @@
+{
+  "multipart": [
+    {"apply":{"model":"ncb_roadblck:block/asphalt_road"}},
+    {"when":{"north":"false","east":"false","south":"false","west":"false"},"apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink"}},
+    {"when":{"north":"false","east":"false","south":"false","west":"true"}, "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_w"}},
+    {"when":{"north":"false","east":"false","south":"true","west":"false"}, "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_s"}},
+    {"when":{"north":"false","east":"false","south":"true","west":"true"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_sw"}},
+    {"when":{"north":"false","east":"true","south":"false","west":"false"}, "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_e"}},
+    {"when":{"north":"false","east":"true","south":"false","west":"true"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_ew"}},
+    {"when":{"north":"false","east":"true","south":"true","west":"false"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_es"}},
+    {"when":{"north":"false","east":"true","south":"true","west":"true"},   "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_esw"}},
+    {"when":{"north":"true","east":"false","south":"false","west":"false"}, "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_n"}},
+    {"when":{"north":"true","east":"false","south":"false","west":"true"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_nw"}},
+    {"when":{"north":"true","east":"false","south":"true","west":"false"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_ns"}},
+    {"when":{"north":"true","east":"false","south":"true","west":"true"},   "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_nsw"}},
+    {"when":{"north":"true","east":"true","south":"false","west":"false"},  "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_ne"}},
+    {"when":{"north":"true","east":"true","south":"false","west":"true"},   "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_new"}},
+    {"when":{"north":"true","east":"true","south":"true","west":"false"},   "apply":{"model":"ncb_roadblck:block/asphalt_yellow_gridlink_nes"}}
+  ]
+}

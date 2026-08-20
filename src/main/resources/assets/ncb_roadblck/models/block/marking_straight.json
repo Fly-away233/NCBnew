@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_straight",
+    "particle": "ncb_roadblck:block/marking_straight",
+    "1": "ncb_roadblck:block/marking_straight"
+  },
+  "render_type": "cutout"
+}

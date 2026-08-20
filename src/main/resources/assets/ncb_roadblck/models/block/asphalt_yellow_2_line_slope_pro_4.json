@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_road_slope_pro_4",
+  "textures": {
+    "all": "ncb_roadblck:block/asphalt_yellow_2_line_slope",
+    "particle": "ncb_roadblck:block/asphalt_road",
+    "0": "ncb_roadblck:block/asphalt_yellow_2_line_slope"
+  },
+  "render_type": "solid"
+}

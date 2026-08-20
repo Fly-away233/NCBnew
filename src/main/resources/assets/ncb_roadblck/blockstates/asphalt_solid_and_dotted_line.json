@@ -1,0 +1,68 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_0" }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_0", "y": 90 }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_0", "y": 180 }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_0", "y": 270 }
+    },
+    {
+      "when": { "facing": "north", "front_state": "none" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1" }
+    },
+    {
+      "when": { "facing": "east", "front_state": "none" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 90 }
+    },
+    {
+      "when": { "facing": "south", "front_state": "none" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "front_state": "none" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 270 }
+    },
+    {
+      "when": { "facing": "north", "front_state": "same" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1" }
+    },
+    {
+      "when": { "facing": "east", "front_state": "same" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 90 }
+    },
+    {
+      "when": { "facing": "south", "front_state": "same" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "front_state": "same" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_1", "y": 270 }
+    },
+    {
+      "when": { "facing": "north", "front_state": "opposite" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_2" }
+    },
+    {
+      "when": { "facing": "east", "front_state": "opposite" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_2", "y": 90 }
+    },
+    {
+      "when": { "facing": "south", "front_state": "opposite" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_2", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "front_state": "opposite" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_solid_and_dotted_line_2", "y": 270 }
+    }
+  ]
+}

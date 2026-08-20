@@ -1,0 +1,8 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_yellow_gridlink_ns",
+  "textures": {
+    "all": "ncb_roadblck:block/asphalt_white_line",
+    "1": "ncb_roadblck:block/asphalt_white_line"
+  },
+  "render_type": "solid"
+}

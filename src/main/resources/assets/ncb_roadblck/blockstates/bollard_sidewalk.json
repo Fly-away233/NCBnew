@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    {
+      "when": { "lowered": "false", "stacked": "false", "has_plate": "false" },
+      "apply": { "model": "ncb_roadblck:block/bollard_sidewalk" }
+    },
+    {
+      "when": { "lowered": "false", "stacked": "false", "has_plate": "true" },
+      "apply": { "model": "ncb_roadblck:block/bollard_sidewalk" }
+    },
+    {
+      "when": { "lowered": "true", "stacked": "false", "has_plate": "false" },
+      "apply": { "model": "ncb_roadblck:block/bollard_sidewalk_lowered" }
+    },
+    {
+      "when": { "lowered": "true", "stacked": "false", "has_plate": "true" },
+      "apply": { "model": "ncb_roadblck:block/bollard_sidewalk_lowered" }
+    },
+    {
+      "when": { "stacked": "true" },
+      "apply": { "model": "ncb_roadblck:block/bollard_sidewalk_top" }
+    },
+    {
+      "when": { "has_plate": "true", "plate_facing": "north" },
+      "apply": { "model": "ncb_roadblck:block/checked_plate_add" }
+    },
+    {
+      "when": { "has_plate": "true", "plate_facing": "east" },
+      "apply": { "model": "ncb_roadblck:block/checked_plate_add", "y": 90 }
+    },
+    {
+      "when": { "has_plate": "true", "plate_facing": "south" },
+      "apply": { "model": "ncb_roadblck:block/checked_plate_add", "y": 180 }
+    },
+    {
+      "when": { "has_plate": "true", "plate_facing": "west" },
+      "apply": { "model": "ncb_roadblck:block/checked_plate_add", "y": 270 }
+    }
+  ]
+}

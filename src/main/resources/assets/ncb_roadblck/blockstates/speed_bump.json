@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=east,low=false,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump" },
+    "facing=east,low=false,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l" },
+    "facing=east,low=false,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r" },
+    "facing=east,low=true,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump_low" },
+    "facing=east,low=true,shape=left": 		{ "model": "ncb_roadblck:block/speed_bump_l_low" },
+    "facing=east,low=true,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r_low" },
+    "facing=south,low=false,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump", "y": 90 },
+    "facing=south,low=false,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l", "y": 90 },
+    "facing=south,low=false,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r", "y": 90 },
+    "facing=south,low=true,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump_low", "y": 90 },
+    "facing=south,low=true,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l_low", "y": 90 },
+    "facing=south,low=true,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r_low", "y": 90 },
+    "facing=west,low=false,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump" },
+    "facing=west,low=false,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l" },
+    "facing=west,low=false,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r" },
+    "facing=west,low=true,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump_low" },
+    "facing=west,low=true,shape=left": 		{ "model": "ncb_roadblck:block/speed_bump_l_low" },
+    "facing=west,low=true,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r_low" },
+    "facing=north,low=false,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump", "y": 90 },
+    "facing=north,low=false,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l", "y": 90 },
+    "facing=north,low=false,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r", "y": 90 },
+    "facing=north,low=true,shape=middle": 	{ "model": "ncb_roadblck:block/speed_bump_low", "y": 90 },
+    "facing=north,low=true,shape=left": 	{ "model": "ncb_roadblck:block/speed_bump_l_low", "y": 90 },
+    "facing=north,low=true,shape=right": 	{ "model": "ncb_roadblck:block/speed_bump_r_low", "y": 90 }
+  }
+}

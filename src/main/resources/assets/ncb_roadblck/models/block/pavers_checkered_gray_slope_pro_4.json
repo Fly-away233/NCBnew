@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ncb_roadblck:block/pavers_checkered_gray",
+		"particle": "ncb_roadblck:block/pavers_checkered_gray"
+	},
+	"elements": [
+		{
+			"from": [0, 9.586, 3.165],
+			"to": [16, 13.586, 19.665],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11.9003, 11.4081]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 4.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 4.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 4.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	]
+}

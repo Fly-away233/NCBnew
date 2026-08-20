@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:cement"
+  },
+  "result": {
+    "id": "ncb_roadblck:shoulder_asphalt_l_slope_pro",
+    "count": 4
+  }
+}

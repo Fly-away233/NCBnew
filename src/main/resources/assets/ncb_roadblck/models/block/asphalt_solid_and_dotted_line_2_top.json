@@ -1,0 +1,37 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "ncb_roadblck:block/asphalt_road",
+		"2": "ncb_roadblck:block/asphalt_yellow_2_line",
+		"particle": "ncb_roadblck:block/asphalt_road"
+	},
+	"elements": [
+		{
+			"from": [2, 8, 0],
+			"to": [6, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 8, 0]},
+			"faces": {
+				"north": {"uv": [10, 8, 14, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [2, 8, 6, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [2, 0, 6, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [10, 0, 14, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 8, 0],
+			"to": [14, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 8, 0]},
+			"faces": {
+				"north": {"uv": [2, 0, 10, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [6, 0, 14, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [6, 0, 14, 16], "texture": "#1"},
+				"down": {"uv": [6, 0, 14, 16], "texture": "#1"}
+			}
+		}
+	]
+}

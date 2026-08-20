@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking_low",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_left",
+    "particle": "ncb_roadblck:block/marking_left",
+    "1": "ncb_roadblck:block/marking_left"
+  },
+  "render_type": "cutout"
+}

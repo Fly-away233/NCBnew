@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lowered=false": {
+      "model": "ncb_roadblck:block/stone_pillar"
+    },
+    "lowered=true": {
+      "model": "ncb_roadblck:block/stone_pillar_lowered"
+    }
+  }
+}

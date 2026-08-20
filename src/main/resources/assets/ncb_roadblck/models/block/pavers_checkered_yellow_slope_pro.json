@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/pavers_checkered_gray_slope_pro",
+  "textures": {
+    "all": "ncb_roadblck:block/pavers_checkered_yellow",
+    "particle": "ncb_roadblck:block/pavers_checkered_yellow",
+    "0": "ncb_roadblck:block/pavers_checkered_yellow"
+  },
+  "render_type": "solid"
+}

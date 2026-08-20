@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ncb_roadblck:block/pavers_square_green",
+    "up": "ncb_roadblck:block/pavers_square_green",
+    "north": "ncb_roadblck:block/pavers_square_green",
+    "east": "ncb_roadblck:block/pavers_square_green",
+    "south": "ncb_roadblck:block/pavers_square_green",
+    "west": "ncb_roadblck:block/pavers_square_green",
+    "particle": "ncb_roadblck:block/pavers_square_green"
+  },
+  "render_type": "solid"
+}

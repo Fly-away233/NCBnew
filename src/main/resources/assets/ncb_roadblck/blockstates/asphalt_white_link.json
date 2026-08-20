@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {"apply": {"model": "ncb_roadblck:block/asphalt_white_link_o"}},
+    {"when": {"north": false},"apply": {"model": "ncb_roadblck:block/asphalt_white_link_n"}},
+    {"when": {"south": false},"apply": {"model": "ncb_roadblck:block/asphalt_white_link_s"}},
+    {"when": {"east": false}, "apply": {"model": "ncb_roadblck:block/asphalt_white_link_e"}},
+    {"when": {"west": false}, "apply": {"model": "ncb_roadblck:block/asphalt_white_link_w"}}
+  ]
+}

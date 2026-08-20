@@ -1,0 +1,10 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_plate_2",
+  "textures": {
+    "all": "ncb_roadblck:block/pavers_square_gray",
+    "particle": "ncb_roadblck:block/pavers_square_gray",
+    "0": "ncb_roadblck:block/pavers_square_gray",
+    "1": "ncb_roadblck:block/pavers_square_gray"
+  },
+  "render_type": "solid"
+}

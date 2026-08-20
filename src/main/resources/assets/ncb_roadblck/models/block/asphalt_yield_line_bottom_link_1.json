@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "ncb_roadblck:block/asphalt_3_color_line_bottom_link_1",
+	"render_type": "solid",
+	"textures": {
+		"1": "ncb_roadblck:block/asphalt_road",
+		"2": "ncb_roadblck:block/asphalt_yield_line",
+		"particle": "ncb_roadblck:block/asphalt_yield_line"
+	}
+}

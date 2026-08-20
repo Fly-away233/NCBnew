@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "axis=z,connect=none,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_4", "y": 0 },
+    "axis=x,connect=none,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_4", "y": 90 },
+    "axis=z,connect=none,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_4_low", "y": 0 },
+    "axis=x,connect=none,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_4_low", "y": 90 },
+    "axis=z,connect=none,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=none,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 90 },
+    "axis=z,connect=none,low=true,small=true": 		{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=none,low=true,small=true": 		{ "model": "ncb_roadblck:block/empty", "y": 90 },
+
+    "axis=z,connect=left,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_3", "y": 0 },
+    "axis=x,connect=left,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_3", "y": 90 },
+    "axis=z,connect=left,low=false,small=true": 	{ "model": "ncb_roadblck:block/guardrail_3_connect", "y": 0 },
+    "axis=x,connect=left,low=false,small=true": 	{ "model": "ncb_roadblck:block/guardrail_3_connect", "y": 90 },
+    "axis=z,connect=left,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_3_low", "y": 0 },
+    "axis=x,connect=left,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_3_low", "y": 90 },
+    "axis=z,connect=left,low=true,small=true": 		{ "model": "ncb_roadblck:block/guardrail_3_connect_low", "y": 0 },
+    "axis=x,connect=left,low=true,small=true": 		{ "model": "ncb_roadblck:block/guardrail_3_connect_low", "y": 90 },
+
+    "axis=z,connect=right,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_2", "y": 0 },
+    "axis=x,connect=right,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_2", "y": 90 },
+    "axis=z,connect=right,low=false,small=true": 	{ "model": "ncb_roadblck:block/guardrail_2_connect", "y": 0 },
+    "axis=x,connect=right,low=false,small=true": 	{ "model": "ncb_roadblck:block/guardrail_2_connect", "y": 90 },
+    "axis=z,connect=right,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_2_low", "y": 0 },
+    "axis=x,connect=right,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_2_low", "y": 90 },
+    "axis=z,connect=right,low=true,small=true": 	{ "model": "ncb_roadblck:block/guardrail_2_connect_low", "y": 0 },
+    "axis=x,connect=right,low=true,small=true": 	{ "model": "ncb_roadblck:block/guardrail_2_connect_low", "y": 90 },
+
+    "axis=z,connect=middle,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_5", "y": 0 },
+    "axis=x,connect=middle,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_5", "y": 90 },
+    "axis=z,connect=middle,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_5_low", "y": 0 },
+    "axis=x,connect=middle,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_5_low", "y": 90 },
+    "axis=z,connect=middle,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=middle,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 90 },
+    "axis=z,connect=middle,low=true,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=middle,low=true,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 90 },
+
+    "axis=z,connect=both,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_1", "y": 0 },
+    "axis=x,connect=both,low=false,small=false": 	{ "model": "ncb_roadblck:block/guardrail_1", "y": 90 },
+    "axis=z,connect=both,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_1_low", "y": 0 },
+    "axis=x,connect=both,low=true,small=false": 	{ "model": "ncb_roadblck:block/guardrail_1_low", "y": 90 },
+    "axis=z,connect=both,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=both,low=false,small=true": 	{ "model": "ncb_roadblck:block/empty", "y": 90 },
+    "axis=z,connect=both,low=true,small=true": 		{ "model": "ncb_roadblck:block/empty", "y": 0 },
+    "axis=x,connect=both,low=true,small=true": 		{ "model": "ncb_roadblck:block/empty", "y": 90 }
+  }
+}

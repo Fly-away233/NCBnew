@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_no_entry_1",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_no_entry_for_three_wheeled_vehicles",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_no_entry_for_three_wheeled_vehicles"
+  },
+  "render_type": "cutout"
+}

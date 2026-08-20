@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "type=bottom,facing=north,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab"
+    },
+    "type=bottom,facing=east,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab",
+      "y": 90
+    },
+    "type=bottom,facing=south,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab",
+      "y": 180
+    },
+    "type=bottom,facing=west,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab",
+      "y": 270
+    },
+    "type=bottom,facing=north,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab2",
+      "y": 180
+    },
+    "type=bottom,facing=east,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab2",
+      "y": 270
+    },
+    "type=bottom,facing=south,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab2"
+    },
+    "type=bottom,facing=west,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab2",
+      "y": 90
+    },
+
+    "type=top,facing=north,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top"
+    },
+    "type=top,facing=east,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top",
+      "y": 90
+    },
+    "type=top,facing=south,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top",
+      "y": 180
+    },
+    "type=top,facing=west,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top",
+      "y": 270
+    },
+    "type=top,facing=north,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top2",
+      "y": 180
+    },
+    "type=top,facing=east,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top2",
+      "y": 270
+    },
+    "type=top,facing=south,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top2"
+    },
+    "type=top,facing=west,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash_slab_top2",
+      "y": 90
+    },
+
+    "type=double,facing=north,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash"
+    },
+    "type=double,facing=east,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash",
+      "y": 90
+    },
+    "type=double,facing=south,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash",
+      "y": 180
+    },
+    "type=double,facing=west,right=false": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash",
+      "y": 270
+    },
+    "type=double,facing=north,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash2",
+      "y": 180
+    },
+    "type=double,facing=east,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash2",
+      "y": 270
+    },
+    "type=double,facing=south,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash2"
+    },
+    "type=double,facing=west,right=true": {
+      "model": "ncb_roadblck:block/asphalt_yellow_2_lineslash2",
+      "y": 90
+    }
+  }
+}

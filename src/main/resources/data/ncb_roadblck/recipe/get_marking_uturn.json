@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:marking_watch_for_pedestrians"
+  },
+  "result": {
+    "id": "ncb_roadblck:marking_uturn",
+    "count": 1
+  }
+}

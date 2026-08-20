@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "ncb_roadblck:block/cement",
+    "bottom": "ncb_roadblck:block/cement",
+    "top": "ncb_roadblck:block/cement",
+    "side": "ncb_roadblck:block/cement"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:marble"
+  },
+  "result": {
+    "id": "ncb_roadblck:shoulder_marble_slab",
+    "count": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Road Marking Sign",
+    "icon": {
+      "value": "CUSTOM:RoadsignStop"
+    },
+    "showSearch": false
+  }
+}

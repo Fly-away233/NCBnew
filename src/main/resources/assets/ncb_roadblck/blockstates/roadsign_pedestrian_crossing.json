@@ -1,0 +1,24 @@
+{
+  "multipart": [
+    {
+      "when": { "base": "none", "rotation": 0 },
+      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing", "y": 0 }
+    },
+    {
+      "when": { "base": "none", "rotation": 4 },
+      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing", "y": 90 }
+    },
+    {
+      "when": { "base": "none", "rotation": 8 },
+      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing", "y": 180 }
+    },
+    {
+      "when": { "base": "none", "rotation": 12 },
+      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing", "y": 270 }
+    },
+    { "when": { "base": "pole", "stage": 1 },      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing_1" } },
+    { "when": { "base": "pole", "stage": 2 },      "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing_2" } },
+    { "when": { "base": "smallpole", "stage": 1 }, "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing_1" } },
+    { "when": { "base": "smallpole", "stage": 2 }, "apply": { "model": "ncb_roadblck:block/roadsign_pedestrian_crossing_2" } }
+  ]
+}

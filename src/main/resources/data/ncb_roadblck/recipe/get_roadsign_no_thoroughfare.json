@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:roadsign_stop"
+  },
+  "result": {
+    "id": "ncb_roadblck:roadsign_no_thoroughfare",
+    "count": 1
+  }
+}

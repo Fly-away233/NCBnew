@@ -1,0 +1,54 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line" }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line", "y": 90 }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line", "y": 180 }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line", "y": 270 }
+    },
+
+    {
+      "when": { "facing": "north", "front_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_1" }
+    },
+    {
+      "when": { "facing": "east", "front_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_1", "y": 90 }
+    },
+    {
+      "when": { "facing": "south", "front_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_1", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "front_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_1", "y": 270 }
+    },
+
+    {
+      "when": { "facing": "north", "back_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_2" }
+    },
+    {
+      "when": { "facing": "east", "back_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_2", "y": 90 }
+    },
+    {
+      "when": { "facing": "south", "back_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_2", "y": 180 }
+    },
+    {
+      "when": { "facing": "west", "back_link": "true" },
+      "apply": { "model": "ncb_roadblck:block/asphalt_white_line_link_2", "y": 270 }
+    }
+  ]
+}

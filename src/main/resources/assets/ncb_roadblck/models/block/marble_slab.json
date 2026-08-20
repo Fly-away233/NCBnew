@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "ncb_roadblck:block/marble",
+    "bottom": "ncb_roadblck:block/marble",
+    "top": "ncb_roadblck:block/marble",
+    "side": "ncb_roadblck:block/marble"
+  },
+  "render_type": "solid"
+}

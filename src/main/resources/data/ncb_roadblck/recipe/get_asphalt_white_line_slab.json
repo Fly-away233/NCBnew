@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:asphalt_white_line"
+  },
+  "result": {
+    "id": "ncb_roadblck:asphalt_white_line_slab",
+    "count": 2
+  }
+}

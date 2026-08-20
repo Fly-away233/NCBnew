@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "axis=z,connect=none,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_4", "y": 0 },
+    "axis=x,connect=none,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_4", "y": 90 },
+    "axis=z,connect=left,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_3", "y": 0 },
+    "axis=x,connect=left,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_3", "y": 90 },
+    "axis=z,connect=right,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_2", "y": 0 },
+    "axis=x,connect=right,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_2", "y": 90 },
+    "axis=z,connect=middle,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_5", "y": 0 },
+    "axis=x,connect=middle,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_5", "y": 90 },
+    "axis=z,connect=both,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_1", "y": 0 },
+    "axis=x,connect=both,low=false": 	{ "model": "ncb_roadblck:block/guardrail_small_1", "y": 90 },
+
+    "axis=z,connect=none,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_4_low", "y": 0 },
+    "axis=x,connect=none,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_4_low", "y": 90 },
+    "axis=z,connect=left,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_3_low", "y": 0 },
+    "axis=x,connect=left,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_3_low", "y": 90 },
+    "axis=z,connect=right,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_2_low", "y": 0 },
+    "axis=x,connect=right,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_2_low", "y": 90 },
+    "axis=z,connect=middle,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_5_low", "y": 0 },
+    "axis=x,connect=middle,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_5_low", "y": 90 },
+    "axis=z,connect=both,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_1_low", "y": 0 },
+    "axis=x,connect=both,low=true": 	{ "model": "ncb_roadblck:block/guardrail_small_1_low", "y": 90 }
+  }
+}

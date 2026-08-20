@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:pavers_square_gray"
+  },
+  "result": {
+    "id": "ncb_roadblck:pavers_checkered_gray_plate",
+    "count": 8
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:asphalt_road"
+  },
+  "result": {
+    "id": "ncb_roadblck:asphalt_road_slope_pro",
+    "count": 4
+  }
+}

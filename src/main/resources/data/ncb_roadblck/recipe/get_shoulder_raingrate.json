@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:cement"
+  },
+  "result": {
+    "id": "ncb_roadblck:shoulder_raingrate",
+    "count": 1
+  }
+}

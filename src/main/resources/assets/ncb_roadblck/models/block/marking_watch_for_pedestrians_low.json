@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking_low",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_watch_for_pedestrians",
+    "particle": "ncb_roadblck:block/marking_watch_for_pedestrians",
+    "1": "ncb_roadblck:block/marking_watch_for_pedestrians"
+  },
+  "render_type": "cutout"
+}

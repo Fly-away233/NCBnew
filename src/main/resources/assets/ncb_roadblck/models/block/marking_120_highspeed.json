@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_120_highspeed",
+    "particle": "ncb_roadblck:block/marking_120_highspeed",
+    "1": "ncb_roadblck:block/marking_120_highspeed"
+  },
+  "render_type": "cutout"
+}

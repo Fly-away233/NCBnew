@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "ccc",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cyan_dye"
+    },
+    "b": {
+      "item": "ncb_roadblck:pattern_steel"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "ncb_roadblck:electric_wrench",
+    "count": 1
+  }
+}

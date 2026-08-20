@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "ncb_roadblck:block/pavers_checkered_yellow",
+    "bottom": "ncb_roadblck:block/pavers_checkered_yellow",
+    "top": "ncb_roadblck:block/pavers_checkered_yellow",
+    "side": "ncb_roadblck:block/pavers_checkered_yellow"
+  },
+  "render_type": "solid"
+}

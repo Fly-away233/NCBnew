@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_crossroads",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_narrows",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_narrows"
+  },
+  "render_type": "cutout"
+}

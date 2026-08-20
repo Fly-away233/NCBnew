@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,layers=1": { "model": "ncb_roadblck:block/pavers_interlock_green_slope" },
+    "facing=east,layers=1":  { "model": "ncb_roadblck:block/pavers_interlock_green_slope", "y": 90 },
+    "facing=south,layers=1": { "model": "ncb_roadblck:block/pavers_interlock_green_slope", "y": 180 },
+    "facing=west,layers=1":  { "model": "ncb_roadblck:block/pavers_interlock_green_slope", "y": 270 },
+    "facing=north,layers=2": { "model": "ncb_roadblck:block/pavers_interlock_green_slope_2" },
+    "facing=east,layers=2":  { "model": "ncb_roadblck:block/pavers_interlock_green_slope_2", "y": 90 },
+    "facing=south,layers=2": { "model": "ncb_roadblck:block/pavers_interlock_green_slope_2", "y": 180 },
+    "facing=west,layers=2":  { "model": "ncb_roadblck:block/pavers_interlock_green_slope_2", "y": 270 }
+  }
+}

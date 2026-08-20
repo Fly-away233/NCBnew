@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:pavers_square_red"
+  },
+  "result": {
+    "id": "ncb_roadblck:pavers_interlock_red_slope",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "pole_type=single": {
+      "model": "ncb_roadblck:block/traffic_signal_smallpole"
+    },
+    "pole_type=low": {
+      "model": "ncb_roadblck:block/traffic_signal_smallpole_low"
+    },
+    "pole_type=stacked": {
+      "model": "ncb_roadblck:block/traffic_signal_smallpole_1"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_white_line_top_link_2",
+  "textures": {
+    "all": "ncb_roadblck:block/asphalt_yellow_line",
+    "particle": "ncb_roadblck:block/asphalt_yellow_line",
+		"1": "ncb_roadblck:block/asphalt_road",
+		"2": "ncb_roadblck:block/asphalt_yellow_line"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "ncb_roadblck:block/asphalt_plate_5",
+  "textures": {
+    "all": "ncb_roadblck:block/pavers_interlock_yellow",
+    "particle": "ncb_roadblck:block/pavers_interlock_yellow",
+    "0": "ncb_roadblck:block/pavers_interlock_yellow",
+    "1": "ncb_roadblck:block/pavers_interlock_yellow"
+  },
+  "render_type": "solid"
+}

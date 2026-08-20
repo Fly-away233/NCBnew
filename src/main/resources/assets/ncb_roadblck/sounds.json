@@ -1,0 +1,23 @@
+{
+  "electric_wrench_use": {
+    "subtitle": "subtitles.electric_wrench_use",
+    "sounds": [
+      {
+        "name": "ncb_roadblck:electric_wrench_use",
+        "stream": false
+      },
+      {
+        "name": "ncb_roadblck:electric_wrench_use_2",
+        "stream": false
+      },
+      {
+        "name": "ncb_roadblck:electric_wrench_use_3",
+        "stream": false
+      },
+      {
+        "name": "ncb_roadblck:electric_wrench_use_4",
+        "stream": false
+      }
+    ]
+  }
+}

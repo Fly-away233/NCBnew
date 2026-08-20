@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="ncb_roadblck"
+version="1.2.4"
+displayName="\u65B0\u4E16\u7EAA\u9053\u8DEF\u65B9\u5757"
+displayURL="https://ifdian.net/a/aizhexia"
+logoFile="logo.png"
+credits="Mcreator\u3001Kimi\u3001Trae"
+authors="Fly_away"
+description="\u65B0\u4E16\u7EAA\u9053\u8DEF\u65B9\u5757\uFF01\u65E8\u5728\u8FD8\u539F\u4E2D\u5F0F\u9053\u8DEF\u5404\u79CD\u5143\u7D20\uFF08\u672Cmod\u4E25\u7981\u79FB\u690D\u81F3\u300A\u7F51\u6613\u6211\u7684\u4E16\u754C\u300B\uFF0C\u4E00\u7ECF\u53D1\u73B0\u5FC5\u4E25\u8083\u8FFD\u7A76\uFF01\uFF01\uFF01\uFF09"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.ncb_roadblck]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ncb_roadblck]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ncb_roadblck]]
+    modId="geckolib"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "ncb_roadblck:block/pavers_square_red",
+    "bottom": "ncb_roadblck:block/pavers_square_red",
+    "top": "ncb_roadblck:block/pavers_square_red",
+    "side": "ncb_roadblck:block/pavers_square_red"
+  },
+  "render_type": "solid"
+}

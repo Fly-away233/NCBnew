@@ -1,0 +1,130 @@
+{
+  "mappings": {
+    "straight": {
+      "name": "straight",
+      "map": {
+        "1": "marking_straight"
+      }
+    },
+    "straightright": {
+      "name": "straightright",
+      "map": {
+        "1": "marking_straight_right"
+      }
+    },
+    "leftuturn": {
+      "name": "leftuturn",
+      "map": {
+        "1": "marking_left_uturn"
+      }
+    },
+    "default": {
+      "name": "default",
+      "map": {
+        "1": ""
+      }
+    },
+    "left": {
+      "name": "left",
+      "map": {
+        "1": "marking_left"
+      }
+    },
+    "offsetleft": {
+      "name": "offsetleft",
+      "map": {
+        "1": "marking_offset_left"
+      }
+    },
+    "uturn": {
+      "name": "uturn",
+      "map": {
+        "1": "marking_uturn"
+      }
+    },
+    "straightleft": {
+      "name": "straightleft",
+      "map": {
+        "1": "marking_straight_left"
+      }
+    },
+    "straightuturn": {
+      "name": "straightuturn",
+      "map": {
+        "1": "marking_straight_uturn"
+      }
+    },
+    "right": {
+      "name": "right",
+      "map": {
+        "1": "marking_right"
+      }
+    },
+    "leftright": {
+      "name": "leftright",
+      "map": {
+        "1": "marking_left_right"
+      }
+    },
+    "offsetright": {
+      "name": "offsetright",
+      "map": {
+        "1": "marking_offset_right"
+      }
+    },
+    "marking_watch_for_pedestrians": {
+      "name": "marking_watch_for_pedestrians",
+      "map": {
+        "1": "marking_watch_for_pedestrians"
+      }
+    },
+    "lowspeed60": {
+      "name": "lowspeed60",
+      "map": {
+        "1": "marking_60_lowspeed"
+      }
+    },
+    "lowspeed40": {
+      "name": "lowspeed40",
+      "map": {
+        "1": "marking_40_lowspeed"
+      }
+    },
+    "lowspeed80": {
+      "name": "lowspeed80",
+      "map": {
+        "1": "marking_80_lowspeed"
+      }
+    },
+    "lowspeed100": {
+      "name": "lowspeed100",
+      "map": {
+        "1": "marking_100_lowspeed"
+      }
+    },
+    "highspeed60": {
+      "name": "highspeed60",
+      "map": {
+        "1": "marking_60_highspeed"
+      }
+    },
+    "highspeed80": {
+      "name": "highspeed80",
+      "map": {
+        "1": "marking_80_highspeed"
+      }
+    },
+    "highspeed100": {
+      "name": "highspeed100",
+      "map": {
+        "1": "marking_100_highspeed"
+      }
+    },
+    "highspeed120": {
+      "name": "highspeed120",
+      "map": {
+        "1": "marking_120_highspeed"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "ncb_roadblck:block/traffic_signal_smallpole",
+		"particle": "ncb_roadblck:block/traffic_signal_smallpole"
+	},
+	"elements": [
+		{
+			"from": [5.75, 0, 7.07],
+			"to": [10.25, 16, 8.93],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"east": {"uv": [1.5, 8, 2.75, 16], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 8], "texture": "#0"},
+				"west": {"uv": [0, 8, 1.25, 16], "texture": "#0"},
+				"up": {"uv": [4.25, 11, 3, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5.75, 8, 4.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.07, 0, 5.75],
+			"to": [8.93, 16, 10.25],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 1.25, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"south": {"uv": [1.5, 8, 2.75, 16], "texture": "#0"},
+				"west": {"uv": [3, 0, 6, 8], "texture": "#0"},
+				"up": {"uv": [4.25, 11, 3, 8], "texture": "#0"},
+				"down": {"uv": [5.75, 8, 4.5, 11], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.75, 0, 7.07],
+			"to": [10.25, 16, 8.93],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"east": {"uv": [1.5, 8, 2.75, 16], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 8], "texture": "#0"},
+				"west": {"uv": [0, 8, 1.25, 16], "texture": "#0"},
+				"up": {"uv": [4.25, 11, 3, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5.75, 8, 4.5, 11], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.07, 0, 5.75],
+			"to": [8.93, 16, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 1.25, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"south": {"uv": [1.5, 8, 2.75, 16], "texture": "#0"},
+				"west": {"uv": [3, 0, 6, 8], "texture": "#0"},
+				"up": {"uv": [4.25, 11, 3, 8], "texture": "#0"},
+				"down": {"uv": [5.75, 8, 4.5, 11], "texture": "#0"}
+			}
+		}
+	]
+}

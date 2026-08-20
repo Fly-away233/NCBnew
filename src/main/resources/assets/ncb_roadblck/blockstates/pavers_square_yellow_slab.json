@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,type=bottom": { "model": "ncb_roadblck:block/pavers_square_yellow_slab" },
+    "facing=east,type=bottom":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab", "y": 90 },
+    "facing=south,type=bottom": { "model": "ncb_roadblck:block/pavers_square_yellow_slab", "y": 180 },
+    "facing=west,type=bottom":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab", "y": 270 },
+
+    "facing=north,type=top": { "model": "ncb_roadblck:block/pavers_square_yellow_slab_top" },
+    "facing=east,type=top":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab_top", "y": 90 },
+    "facing=south,type=top": { "model": "ncb_roadblck:block/pavers_square_yellow_slab_top", "y": 180 },
+    "facing=west,type=top":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab_top", "y": 270 },
+
+    "facing=north,type=double": { "model": "ncb_roadblck:block/pavers_square_yellow_slab_full" },
+    "facing=east,type=double":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab_full", "y": 90 },
+    "facing=south,type=double": { "model": "ncb_roadblck:block/pavers_square_yellow_slab_full", "y": 180 },
+    "facing=west,type=double":  { "model": "ncb_roadblck:block/pavers_square_yellow_slab_full", "y": 270 }
+  }
+}
