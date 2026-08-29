@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking_low",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_fire_lane",
+    "particle": "ncb_roadblck:block/marking_fire_lane",
+    "1": "ncb_roadblck:block/marking_fire_lane"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_yield",
+    "particle": "ncb_roadblck:block/marking_yield",
+    "1": "ncb_roadblck:block/marking_yield"
+  },
+  "render_type": "cutout"
+}

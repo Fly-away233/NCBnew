@@ -318,6 +318,10 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> MANHOLE_COVER;
 	public static final DeferredBlock<Block> CEMENT_HIGH_DENSITY;
 	public static final DeferredBlock<Block> CEMENT_HIGH_DENSITY_SLAB;
+	public static final DeferredBlock<Block> BARRIER_SHAPE_F;
+	public static final DeferredBlock<Block> MARKING_YIELD;
+	public static final DeferredBlock<Block> MARKING_FIRE_LANE;
+	public static final DeferredBlock<Block> MARKING_STOP;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -624,6 +628,10 @@ public class NcbRoadblckModBlocks {
 		MANHOLE_COVER = REGISTRY.register("manhole_cover", ManholeCoverBlock::new);
 		CEMENT_HIGH_DENSITY = REGISTRY.register("cement_high_density", CementHighDensityBlock::new);
 		CEMENT_HIGH_DENSITY_SLAB = REGISTRY.register("cement_high_density_slab", CementHighDensitySlabBlock::new);
+		BARRIER_SHAPE_F = REGISTRY.register("barrier_shape_f", BarrierShapeFBlock::new);
+		MARKING_YIELD = REGISTRY.register("marking_yield", MarkingYieldBlock::new);
+		MARKING_FIRE_LANE = REGISTRY.register("marking_fire_lane", MarkingFireLaneBlock::new);
+		MARKING_STOP = REGISTRY.register("marking_stop", MarkingStopBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

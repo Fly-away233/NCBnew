@@ -324,6 +324,10 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> MANHOLE_COVER;
 	public static final DeferredItem<Item> CEMENT_HIGH_DENSITY;
 	public static final DeferredItem<Item> CEMENT_HIGH_DENSITY_SLAB;
+	public static final DeferredItem<Item> BARRIER_SHAPE_F;
+	public static final DeferredItem<Item> MARKING_YIELD;
+	public static final DeferredItem<Item> MARKING_FIRE_LANE;
+	public static final DeferredItem<Item> MARKING_STOP;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -632,6 +636,10 @@ public class NcbRoadblckModItems {
 		MANHOLE_COVER = block(NcbRoadblckModBlocks.MANHOLE_COVER);
 		CEMENT_HIGH_DENSITY = block(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY);
 		CEMENT_HIGH_DENSITY_SLAB = block(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY_SLAB);
+		BARRIER_SHAPE_F = block(NcbRoadblckModBlocks.BARRIER_SHAPE_F);
+		MARKING_YIELD = block(NcbRoadblckModBlocks.MARKING_YIELD);
+		MARKING_FIRE_LANE = block(NcbRoadblckModBlocks.MARKING_FIRE_LANE);
+		MARKING_STOP = block(NcbRoadblckModBlocks.MARKING_STOP);
 	}
 
 	// Start of user code block custom items

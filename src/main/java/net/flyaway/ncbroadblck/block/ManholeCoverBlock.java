@@ -12,6 +12,7 @@ import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.properties.SlabType;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -29,6 +30,7 @@ public class ManholeCoverBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
+	public static final BooleanProperty LOW = BooleanProperty.create("low");
 
 	private final ImmutableMap<BlockState, VoxelShape> shapes = this.makeShapes();
 
@@ -43,22 +45,53 @@ public class ManholeCoverBlock extends Block implements SimpleWaterloggedBlock {
 		this.registerDefaultState(this.stateDefinition.any()
 				.setValue(FACING, Direction.NORTH)
 				.setValue(WATERLOGGED, false)
-				.setValue(OPEN, false));
+				.setValue(OPEN, false)
+				.setValue(LOW, false));
+	}
+
+	/** 检测下方是否为下半砖 */
+	private static boolean isBottomSlab(LevelAccessor level, BlockPos pos) {
+		BlockPos below = pos.below();
+		BlockState belowState = level.getBlockState(below);
+		return belowState.getBlock() instanceof SlabBlock
+				&& belowState.hasProperty(SlabBlock.TYPE)
+				&& belowState.getValue(SlabBlock.TYPE) == SlabType.BOTTOM;
 	}
 
 	private ImmutableMap<BlockState, VoxelShape> makeShapes() {
 		return this.getShapeForEachState(state -> {
-			if (state.getValue(OPEN)) {
-				return switch (state.getValue(FACING)) {
-					case NORTH -> box(-3.5, 0, -3.5, 1, 22.5, 19.5);   // 西侧竖板
-					case EAST  -> box(-3.5, 0, -3.5, 19.5, 22.5, 1);   // 北侧竖板
-					case SOUTH -> box(15, 0, -3.5, 19.5, 22.5, 19.5); // 东侧竖板
-					case WEST  -> box(-3.5, 0, 15, 19.5, 22.5, 19.5); // 南侧竖板
-					default -> box(-3.5, 0, -3.5, 1, 22.5, 19.5);
-				};
+			boolean open = state.getValue(OPEN);
+			boolean low = state.getValue(LOW);
+			
+			if (open) {
+				// ==========================================
+				// 打开状态：竖直板（支持超出方块边界）
+				// low 时整体 y 轴偏移 -8
+				// ==========================================
+				if (low) {
+					return switch (state.getValue(FACING)) {
+						case NORTH -> box(-3.5, -8, -3.5, 1, 14.5, 19.5);
+						case EAST  -> box(-3.5, -8, -3.5, 19.5, 14.5, 1);
+						case SOUTH -> box(15, -8, -3.5, 19.5, 14.5, 19.5);
+						case WEST  -> box(-3.5, -8, 15, 19.5, 14.5, 19.5);
+						default -> box(-3.5, -8, -3.5, 1, 14.5, 19.5);
+					};
+				} else {
+					return switch (state.getValue(FACING)) {
+						case NORTH -> box(-3.5, 0, -3.5, 1, 22.5, 19.5);
+						case EAST  -> box(-3.5, 0, -3.5, 19.5, 22.5, 1);
+						case SOUTH -> box(15, 0, -3.5, 19.5, 22.5, 19.5);
+						case WEST  -> box(-3.5, 0, 15, 19.5, 22.5, 19.5);
+						default -> box(-3.5, 0, -3.5, 1, 22.5, 19.5);
+					};
+				}
 			}
-			// 关闭状态：平放地面
-			return box(0, 0, 0, 16, 1, 16);
+			
+			// ==========================================
+			// 关闭状态：平放薄板
+			// low 时整体 y 轴偏移 -8
+			// ==========================================
+			return low ? box(0, -8, 0, 16, -7, 16) : box(0, 0, 0, 16, 1, 16);
 		});
 	}
 
@@ -85,7 +118,7 @@ public class ManholeCoverBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
 		super.createBlockStateDefinition(builder);
-		builder.add(FACING, WATERLOGGED, OPEN);
+		builder.add(FACING, WATERLOGGED, OPEN, LOW);
 	}
 
 	@Override
@@ -97,7 +130,8 @@ public class ManholeCoverBlock extends Block implements SimpleWaterloggedBlock {
 		return state
 				.setValue(FACING, context.getHorizontalDirection().getOpposite())
 				.setValue(WATERLOGGED, flag)
-				.setValue(OPEN, false);
+				.setValue(OPEN, false)
+				.setValue(LOW, isBottomSlab(context.getLevel(), context.getClickedPos()));
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -118,6 +152,7 @@ public class ManholeCoverBlock extends Block implements SimpleWaterloggedBlock {
 		if (state.getValue(WATERLOGGED)) {
 			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
+		// LOW 仅在放置时确定一次，后续下方方块更新不再改变 low 状态
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:cement_high_density"
+  },
+  "result": {
+    "id": "ncb_roadblck:cement_high_density_slab",
+    "count": 2
+  }
+}

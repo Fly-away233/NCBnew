@@ -203,6 +203,7 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.MARKING_80_HIGHSPEED.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.MARKING_100_HIGHSPEED.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.MARKING_120_HIGHSPEED.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.MARKING_YIELD.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_CROSSROADS.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_T_JUNCTION.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_JUNCTION_LEFT.get().asItem());
@@ -316,6 +317,8 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_HARD_SHOULDER_AVAILABLE_FOR_TRAFFIC.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_HARD_SHOULDER_AVAILABLE_END.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.ROADSIGN_HARD_SHOULDER_AVAILABLE_CLOSE.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.MARKING_FIRE_LANE.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.MARKING_STOP.get().asItem());
 			}).withTabsBefore(ROAD_BLOCK.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ROAD_FACILITIES = REGISTRY.register("road_facilities",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ncb_roadblck.road_facilities")).icon(() -> new ItemStack(NcbRoadblckModItems.ELECTRIC_WRENCH.get())).displayItems((parameters, tabData) -> {
@@ -330,5 +333,6 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.TRAFFIC_SIGNAL_MAST.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.TRAFFIC_SIGNAL_SMALLPOLE.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.MANHOLE_COVER.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.BARRIER_SHAPE_F.get().asItem());
 			}).withTabsBefore(ROAD_MARKING_SIGN.getId()).build());
 }

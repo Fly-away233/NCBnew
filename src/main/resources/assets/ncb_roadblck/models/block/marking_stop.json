@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_stop",
+    "particle": "ncb_roadblck:block/marking_stop",
+    "1": "ncb_roadblck:block/marking_stop"
+  },
+  "render_type": "cutout"
+}

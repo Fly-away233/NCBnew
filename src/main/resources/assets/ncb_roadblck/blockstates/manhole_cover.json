@@ -1,33 +1,63 @@
 {
   "variants": {
-    "facing=north,open=false": {
+    "facing=north,open=false,low=false": {
       "model": "ncb_roadblck:block/manhole_cover"
     },
-    "facing=east,open=false": {
+    "facing=east,open=false,low=false": {
       "model": "ncb_roadblck:block/manhole_cover",
       "y": 90
     },
-    "facing=south,open=false": {
+    "facing=south,open=false,low=false": {
       "model": "ncb_roadblck:block/manhole_cover",
       "y": 180
     },
-    "facing=west,open=false": {
+    "facing=west,open=false,low=false": {
       "model": "ncb_roadblck:block/manhole_cover",
       "y": 270
     },
-    "facing=north,open=true": {
+    "facing=north,open=true,low=false": {
       "model": "ncb_roadblck:block/manhole_cover_1"
     },
-    "facing=east,open=true": {
+    "facing=east,open=true,low=false": {
       "model": "ncb_roadblck:block/manhole_cover_1",
       "y": 90
     },
-    "facing=south,open=true": {
+    "facing=south,open=true,low=false": {
       "model": "ncb_roadblck:block/manhole_cover_1",
       "y": 180
     },
-    "facing=west,open=true": {
+    "facing=west,open=true,low=false": {
       "model": "ncb_roadblck:block/manhole_cover_1",
+      "y": 270
+    },
+    "facing=north,open=false,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low"
+    },
+    "facing=east,open=false,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low",
+      "y": 90
+    },
+    "facing=south,open=false,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low",
+      "y": 180
+    },
+    "facing=west,open=false,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low",
+      "y": 270
+    },
+    "facing=north,open=true,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low_1"
+    },
+    "facing=east,open=true,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low_1",
+      "y": 90
+    },
+    "facing=south,open=true,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low_1",
+      "y": 180
+    },
+    "facing=west,open=true,low=true": {
+      "model": "ncb_roadblck:block/manhole_cover_low_1",
       "y": 270
     }
   }

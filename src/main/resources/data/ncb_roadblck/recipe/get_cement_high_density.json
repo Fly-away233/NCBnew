@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "ncb_roadblck:cement"
+    }
+  },
+  "result": {
+    "id": "ncb_roadblck:cement_high_density",
+    "count": 4
+  }
+}

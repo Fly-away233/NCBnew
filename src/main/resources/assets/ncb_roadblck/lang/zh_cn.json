@@ -308,6 +308,10 @@
   "block.ncb_roadblck.roadsign_end_of_speed_limit_80": "解除限速80路牌",
   "block.ncb_roadblck.roadsign_end_of_speed_limit_100": "解除限速100路牌",
   "block.ncb_roadblck.manhole_cover": "井盖",
-  "block.ncb_roadblck.cement_high_density": "Cement High Density",
-  "block.ncb_roadblck.cement_high_density_slab": "Cement High Density"
+  "block.ncb_roadblck.cement_high_density": "高密度水泥",
+  "block.ncb_roadblck.cement_high_density_slab": "高密度水泥台阶",
+  "block.ncb_roadblck.barrier_shape_f": "F型混凝土护栏",
+  "block.ncb_roadblck.marking_yield": "礼让行人地标",
+  "block.ncb_roadblck.marking_fire_lane": "消防通道地标",
+  "block.ncb_roadblck.marking_stop": "“停”地标"
 }
