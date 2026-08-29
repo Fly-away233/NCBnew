@@ -321,6 +321,9 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> ROADSIGN_END_OF_SPEED_LIMIT_60;
 	public static final DeferredItem<Item> ROADSIGN_END_OF_SPEED_LIMIT_80;
 	public static final DeferredItem<Item> ROADSIGN_END_OF_SPEED_LIMIT_100;
+	public static final DeferredItem<Item> MANHOLE_COVER;
+	public static final DeferredItem<Item> CEMENT_HIGH_DENSITY;
+	public static final DeferredItem<Item> CEMENT_HIGH_DENSITY_SLAB;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -626,6 +629,9 @@ public class NcbRoadblckModItems {
 		ROADSIGN_END_OF_SPEED_LIMIT_60 = block(NcbRoadblckModBlocks.ROADSIGN_END_OF_SPEED_LIMIT_60);
 		ROADSIGN_END_OF_SPEED_LIMIT_80 = block(NcbRoadblckModBlocks.ROADSIGN_END_OF_SPEED_LIMIT_80);
 		ROADSIGN_END_OF_SPEED_LIMIT_100 = block(NcbRoadblckModBlocks.ROADSIGN_END_OF_SPEED_LIMIT_100);
+		MANHOLE_COVER = block(NcbRoadblckModBlocks.MANHOLE_COVER);
+		CEMENT_HIGH_DENSITY = block(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY);
+		CEMENT_HIGH_DENSITY_SLAB = block(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY_SLAB);
 	}
 
 	// Start of user code block custom items

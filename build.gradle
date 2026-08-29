@@ -8,27 +8,8 @@ base.archivesName = "modid"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
-// ==========================================
-// 新增：仓库与依赖
-// ==========================================
-repositories {
-    mavenCentral()
-    maven {
-        name = 'GeckoLib'
-        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
-        content {
-            includeGroup("software.bernie.geckolib")
-        }
-    }
-}
-
-dependencies {
-    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:4.9.2"
-}
-// ==========================================
-
 neoForge {
-    version = "21.1.190"
+    version = "21.1.232"
 
     runs {
         client {
@@ -56,6 +37,17 @@ neoForge {
             sourceSet sourceSets.main
         }
     }
+}
+
+// ========== 新增：仓库配置 ==========
+repositories {
+    mavenCentral()
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
+// ========== 新增：GeckoLib 依赖 ==========
+dependencies {
+    implementation 'software.bernie.geckolib:geckolib-neoforge-1.21.1:4.7'
 }
 
 tasks.withType(JavaCompile).configureEach {

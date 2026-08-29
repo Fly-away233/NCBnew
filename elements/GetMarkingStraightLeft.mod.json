@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Stone cutting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:AsphaltRoad"
-      }
+      "CUSTOM:AsphaltRoad"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "stoneCuttingInputStack": {
-      "value": "CUSTOM:MarkingWatchForPedestrians"
-    },
-    "stoneCuttingReturnStack": {
-      "value": "CUSTOM:MarkingStraightLeft"
-    },
+    "stoneCuttingInputStack": "CUSTOM:MarkingWatchForPedestrians",
+    "stoneCuttingReturnStack": "CUSTOM:MarkingStraightLeft",
     "name": "get_marking_straight_left",
     "namespace": "mod"
   }

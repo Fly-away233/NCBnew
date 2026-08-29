@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
-      }
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLED_DEEPSLATE"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLED_DEEPSLATE"
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLED_DEEPSLATE",
+      "",
+      "Blocks.COBBLED_DEEPSLATE",
+      "Blocks.COBBLESTONE",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AsphaltRoad"
-    },
+    "recipeReturnStack": "CUSTOM:AsphaltRoad",
     "name": "get_asphalt_road",
     "namespace": "mod"
   }

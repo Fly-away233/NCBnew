@@ -315,6 +315,9 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> ROADSIGN_END_OF_SPEED_LIMIT_60;
 	public static final DeferredBlock<Block> ROADSIGN_END_OF_SPEED_LIMIT_80;
 	public static final DeferredBlock<Block> ROADSIGN_END_OF_SPEED_LIMIT_100;
+	public static final DeferredBlock<Block> MANHOLE_COVER;
+	public static final DeferredBlock<Block> CEMENT_HIGH_DENSITY;
+	public static final DeferredBlock<Block> CEMENT_HIGH_DENSITY_SLAB;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -618,6 +621,9 @@ public class NcbRoadblckModBlocks {
 		ROADSIGN_END_OF_SPEED_LIMIT_60 = REGISTRY.register("roadsign_end_of_speed_limit_60", RoadsignEndOfSpeedLimit60Block::new);
 		ROADSIGN_END_OF_SPEED_LIMIT_80 = REGISTRY.register("roadsign_end_of_speed_limit_80", RoadsignEndOfSpeedLimit80Block::new);
 		ROADSIGN_END_OF_SPEED_LIMIT_100 = REGISTRY.register("roadsign_end_of_speed_limit_100", RoadsignEndOfSpeedLimit100Block::new);
+		MANHOLE_COVER = REGISTRY.register("manhole_cover", ManholeCoverBlock::new);
+		CEMENT_HIGH_DENSITY = REGISTRY.register("cement_high_density", CementHighDensityBlock::new);
+		CEMENT_HIGH_DENSITY_SLAB = REGISTRY.register("cement_high_density_slab", CementHighDensitySlabBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

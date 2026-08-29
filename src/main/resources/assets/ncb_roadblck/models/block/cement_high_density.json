@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ncb_roadblck:block/cement_high_density_",
+    "particle": "ncb_roadblck:block/cement_high_density_"
+  },
+  "render_type": "solid"
+}

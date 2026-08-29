@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Stone cutting",
     "recipeRetstackSize": 8,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Cement"
-      }
+      "CUSTOM:Cement"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "stoneCuttingInputStack": {
-      "value": "CUSTOM:PaversSquareRed"
-    },
-    "stoneCuttingReturnStack": {
-      "value": "CUSTOM:PaversInterlockRedPlate"
-    },
+    "stoneCuttingInputStack": "CUSTOM:PaversSquareRed",
+    "stoneCuttingReturnStack": "CUSTOM:PaversInterlockRedPlate",
     "name": "get_pavers_interlock_red_plate",
     "namespace": "mod"
   }

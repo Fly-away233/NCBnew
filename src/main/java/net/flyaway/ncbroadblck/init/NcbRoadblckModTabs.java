@@ -178,6 +178,8 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.BLIND_PATH_DOT_SLAB.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.BLIND_PATH_DOT_SLOPE.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.BLIND_PATH_DOT_SLOPE_PRO.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.CEMENT_HIGH_DENSITY_SLAB.get().asItem());
 			}).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ROAD_MARKING_SIGN = REGISTRY.register("road_marking_sign",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ncb_roadblck.road_marking_sign")).icon(() -> new ItemStack(NcbRoadblckModBlocks.ROADSIGN_STOP.get())).displayItems((parameters, tabData) -> {
@@ -327,5 +329,6 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.TRAFFIC_SIGNAL_POLE.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.TRAFFIC_SIGNAL_MAST.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.TRAFFIC_SIGNAL_SMALLPOLE.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.MANHOLE_COVER.get().asItem());
 			}).withTabsBefore(ROAD_MARKING_SIGN.getId()).build());
 }

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "ncb_roadblck:block/cement_high_density_",
+    "bottom": "ncb_roadblck:block/cement_high_density_",
+    "top": "ncb_roadblck:block/cement_high_density_",
+    "side": "ncb_roadblck:block/cement_high_density_"
+  },
+  "render_type": "solid"
+}

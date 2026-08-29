@@ -306,5 +306,8 @@
   "block.ncb_roadblck.roadsign_end_of_speed_limit_40": "Roadsign End Of Speed Limit 30",
   "block.ncb_roadblck.roadsign_end_of_speed_limit_60": "Roadsign End Of Speed Limit 40",
   "block.ncb_roadblck.roadsign_end_of_speed_limit_80": "Roadsign End Of Speed Limit 60",
-  "block.ncb_roadblck.roadsign_end_of_speed_limit_100": "Roadsign End Of Speed Limit 80"
+  "block.ncb_roadblck.roadsign_end_of_speed_limit_100": "Roadsign End Of Speed Limit 80",
+  "block.ncb_roadblck.manhole_cover": "Manhole Cover",
+  "block.ncb_roadblck.cement_high_density": "Cement High Density",
+  "block.ncb_roadblck.cement_high_density_slab": "Cement High Density"
 }

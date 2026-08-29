@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="ncb_roadblck"
-version="1.2.4"
+version="1.2.5"
 displayName="\u65B0\u4E16\u7EAA\u9053\u8DEF\u65B9\u5757"
 displayURL="https://ifdian.net/a/aizhexia"
 logoFile="logo.png"
@@ -22,7 +22,7 @@ description="\u65B0\u4E16\u7EAA\u9053\u8DEF\u65B9\u5757\uFF01\u65E8\u5728\u8FD8\
 [[dependencies.ncb_roadblck]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.190,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 

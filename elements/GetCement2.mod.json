@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.SAND#0"
-      }
+      "Blocks.SAND#0"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND#0"
-      },
-      {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.GRAVEL",
+      "Blocks.SAND#0",
+      "",
+      "Blocks.SAND#0",
+      "Blocks.GRAVEL",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Cement"
-    },
+    "recipeReturnStack": "CUSTOM:Cement",
     "name": "get_cement_2",
     "namespace": "mod"
   }

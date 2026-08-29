@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 8,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:AsphaltRoad"
-      }
+      "CUSTOM:AsphaltRoad"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.COPPER_INGOT"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Items.COPPER_INGOT",
+      "",
+      "Items.COPPER_INGOT",
+      "Items.IRON_INGOT",
+      "Items.COPPER_INGOT",
+      "",
+      "Items.COPPER_INGOT",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:PatternSteel"
-    },
+    "recipeReturnStack": "CUSTOM:PatternSteel",
     "name": "get_pattern_steel",
     "namespace": "mod"
   }

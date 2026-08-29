@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:PatternSteel"
-      }
+      "CUSTOM:PatternSteel"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.DYE#6"
-      },
-      {
-        "value": "CUSTOM:PatternSteel"
-      },
-      {
-        "value": "Items.DYE#6"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "CUSTOM:PatternSteel"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "CUSTOM:PatternSteel"
-      }
+      "Items.DYE#6",
+      "CUSTOM:PatternSteel",
+      "Items.DYE#6",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "Items.IRON_INGOT",
+      "CUSTOM:PatternSteel",
+      "Items.REDSTONE",
+      "CUSTOM:PatternSteel"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ElectricWrench"
-    },
+    "recipeReturnStack": "CUSTOM:ElectricWrench",
     "name": "get_electric_wrench",
     "namespace": "mod"
   }

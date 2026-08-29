@@ -1,26 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Stone cutting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:PatternSteel"
-      }
+      "CUSTOM:PatternSteel"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "stoneCuttingInputStack": {
-      "value": "CUSTOM:RoadsignOnlyTurnLeft"
-    },
-    "stoneCuttingReturnStack": {
-      "value": "CUSTOM:RoadsignSoundHorn"
-    },
+    "stoneCuttingInputStack": "CUSTOM:RoadsignOnlyTurnLeft",
+    "stoneCuttingReturnStack": "CUSTOM:RoadsignSoundHorn",
     "name": "get_roadsign_sound_horn",
     "namespace": "mod"
   }

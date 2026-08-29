@@ -3,6 +3,7 @@
   "values": [
     "ncb_roadblck:asphalt_road_slab",
     "ncb_roadblck:pattern_steel_slab",
+    "ncb_roadblck:cement_high_density_slab",
     "ncb_roadblck:cement_slab",
     "ncb_roadblck:marble_slab"
   ]
