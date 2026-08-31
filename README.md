@@ -7,8 +7,9 @@ If any experts are able to port this mod to older versions or to a generator oth
 Porting this mod to *NetEase Minecraft* in any form is strictly prohibited. Any violations will be dealt with severely upon discovery!!!
 
 Translated with DeepL.com (free version)
+
+本模块包含以下内容This module includes the following content:
 ----------------------------------------------------------------------------------------------------------------------
-本模块包含以下内容
 I. 方块类别
  1. 沥青路及各类标线方块组合
  2. 人行道铺路砖和盲道砖
@@ -18,7 +19,6 @@ II. 加载类
  1. 本模组中的部分方块使用Bakdelmodel进行烘焙和渲染。使用修改bakedmodel加载方式或渲染方式的其他模组可能会导致模组冲突或运行失败
  2. 本模组中的部分物品依赖于Geckolib作为依赖模组
 
-This module includes the following content:
 I. Block Categories
  1. Asphalt road and various road marking block combinations
  2. Sidewalk paving bricks and tactile paving bricks
@@ -29,28 +29,23 @@ II. Loading Considerations
  2. Some items in this mod rely on Geckolib as a dependency
 
 Translated with DeepL.com (free version)
-----------------------------------------------------------------------------------------------------------------------
-更新日志
-2026.9.1
 
+更新日志2026.9.1
+----------------------------------------------------------------------------------------------------------------------
 优化小形路牌的衔接模型，使得固定部位不会显得很突兀。
 添加车轮定位器、左弯线形诱导标路牌、右弯线形诱导标路牌、左弯线指导标路牌、右弯线指导标路牌、残疾人路牌、非机动车地标、左转车道标牌、直行车道标牌、右转车道标牌、直行左转车道标牌、直行右转车道标牌掉头车道标牌、掉头左转车道标牌。
 
 
 Optimize the connection model for small street signs so that the mounting points do not look out of place. Add Wheel Stop, Roadsign Induction Left, Roadsign Induction Right, Roadsign Induction Green Left, Roadsign Induction Green Right, Roadsign Disabled, Marking Non Motorized Vehicles, Sign Lane Turn Left, Sign Lane Straight, Sign Lane Turn Right, Sign Lane Straight Or Turn Left, Sign Lane Straight Or Turn Left, Sign Lane Uturn, Sign Lane Uturn Or Turn Left.
 
+更新日志2026.8.30
 ----------------------------------------------------------------------------------------------------------------------
-更新日志
-2026.8.30
-
 添加井盖、高密度水泥、高密度水泥台阶、F型混凝土护栏、礼让行人地标、消防通道地标、“停”地标即配方
 
 Add Manhole Cover, Cement High Density, Cement High Density Slab, Barrier Shape F, Marking Yield, Marking Fire Lane, Marking Stop, and the recipes for these blocks.
 
+更新日志2026.8.29
 ----------------------------------------------------------------------------------------------------------------------
-更新日志
-2026.8.29
-
 1.修复红色工字形半砖无旋转属性JSON
 2.为电动转子赋予实质性功能：可拆卸道路设施
 3.增加新道路设施：井盖
