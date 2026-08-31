@@ -30,7 +30,6 @@ II. Loading Considerations
 
 Translated with DeepL.com (free version)
 ----------------------------------------------------------------------------------------------------------------------
-
 更新日志
 2026.9.1
 
@@ -39,16 +38,16 @@ Translated with DeepL.com (free version)
 
 
 Optimize the connection model for small street signs so that the mounting points do not look out of place. Add Wheel Stop, Roadsign Induction Left, Roadsign Induction Right, Roadsign Induction Green Left, Roadsign Induction Green Right, Roadsign Disabled, Marking Non Motorized Vehicles, Sign Lane Turn Left, Sign Lane Straight, Sign Lane Turn Right, Sign Lane Straight Or Turn Left, Sign Lane Straight Or Turn Left, Sign Lane Uturn, Sign Lane Uturn Or Turn Left.
-----------------------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------------------
 更新日志
 2026.8.30
 
 添加井盖、高密度水泥、高密度水泥台阶、F型混凝土护栏、礼让行人地标、消防通道地标、“停”地标即配方
 
 Add Manhole Cover, Cement High Density, Cement High Density Slab, Barrier Shape F, Marking Yield, Marking Fire Lane, Marking Stop, and the recipes for these blocks.
-----------------------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------------------
 更新日志
 2026.8.29
 
