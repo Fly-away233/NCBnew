@@ -32,29 +32,6 @@ Translated with DeepL.com (free version)
 ----------------------------------------------------------------------------------------------------------------------
 
 更新日志
-2026.8.29
-1.修复红色工字形半砖无旋转属性JSON
-2.为电动转子赋予实质性功能：可拆卸道路设施
-3.增加新道路设施：井盖
-
-1. Fixed the JSON for the pavers_interlock_red_slab, which lacked "facing" properties.
-2. Added practical functionality to the electric_wrench: removable road facilities.
-3. Added a new road fixture: manhole_cover.
-
-未上传Not uploaded
-----------------------------------------------------------------------------------------------------------------------
-
-更新日志
-2026.8.30
-添加井盖、高密度水泥、高密度水泥台阶、F型混凝土护栏、礼让行人地标、消防通道地标、“停”地标即配方
-
-Add Manhole Cover, Cement High Density, Cement High Density Slab, Barrier Shape F, Marking Yield, Marking Fire Lane, Marking Stop, and the recipes for these blocks.
-
-未上传Not uploaded
-
-----------------------------------------------------------------------------------------------------------------------
-
-更新日志
 2026.9.1
 
 优化小形路牌的衔接模型，使得固定部位不会显得很突兀。
@@ -62,5 +39,23 @@ Add Manhole Cover, Cement High Density, Cement High Density Slab, Barrier Shape 
 
 
 Optimize the connection model for small street signs so that the mounting points do not look out of place. Add Wheel Stop, Roadsign Induction Left, Roadsign Induction Right, Roadsign Induction Green Left, Roadsign Induction Green Right, Roadsign Disabled, Marking Non Motorized Vehicles, Sign Lane Turn Left, Sign Lane Straight, Sign Lane Turn Right, Sign Lane Straight Or Turn Left, Sign Lane Straight Or Turn Left, Sign Lane Uturn, Sign Lane Uturn Or Turn Left.
+----------------------------------------------------------------------------------------------------------------------
 
-未上传Not uploaded
+更新日志
+2026.8.30
+
+添加井盖、高密度水泥、高密度水泥台阶、F型混凝土护栏、礼让行人地标、消防通道地标、“停”地标即配方
+
+Add Manhole Cover, Cement High Density, Cement High Density Slab, Barrier Shape F, Marking Yield, Marking Fire Lane, Marking Stop, and the recipes for these blocks.
+----------------------------------------------------------------------------------------------------------------------
+
+更新日志
+2026.8.29
+
+1.修复红色工字形半砖无旋转属性JSON
+2.为电动转子赋予实质性功能：可拆卸道路设施
+3.增加新道路设施：井盖
+
+1. Fixed the JSON for the pavers_interlock_red_slab, which lacked "facing" properties.
+2. Added practical functionality to the electric_wrench: removable road facilities.
+3. Added a new road fixture: manhole_cover.
