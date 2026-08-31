@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_induction_left",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_induction_green_right",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_induction_green_right"
+  },
+  "render_type": "cutout"
+}

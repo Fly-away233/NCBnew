@@ -244,7 +244,16 @@ public class ElectricWrenchItem extends Item implements GeoItem {
                     NcbRoadblckModBlocks.TRAFFIC_SIGNAL_POLE.get(),
                     NcbRoadblckModBlocks.TRAFFIC_SIGNAL_MAST.get(),
                     NcbRoadblckModBlocks.TRAFFIC_SIGNAL_SMALLPOLE.get(),
-                    NcbRoadblckModBlocks.MANHOLE_COVER.get());
+                    NcbRoadblckModBlocks.MANHOLE_COVER.get(),
+					NcbRoadblckModBlocks.WHEEL_STOP.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_TURN_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_TURN_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_UTURN.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT.get()
+                    );
             roadFacilitiesBlocksCache = blocks;
         }
         return blocks;

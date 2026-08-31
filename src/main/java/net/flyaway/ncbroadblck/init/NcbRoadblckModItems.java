@@ -328,6 +328,23 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> MARKING_YIELD;
 	public static final DeferredItem<Item> MARKING_FIRE_LANE;
 	public static final DeferredItem<Item> MARKING_STOP;
+	public static final DeferredItem<Item> MARKING_GONG;
+	public static final DeferredItem<Item> MARKING_JIAO;
+	public static final DeferredItem<Item> MARKING_CHE;
+	public static final DeferredItem<Item> WHEEL_STOP;
+	public static final DeferredItem<Item> ROADSIGN_INDUCTION_LEFT;
+	public static final DeferredItem<Item> ROADSIGN_INDUCTION_RIGHT;
+	public static final DeferredItem<Item> ROADSIGN_INDUCTION_GREEN_LEFT;
+	public static final DeferredItem<Item> ROADSIGN_INDUCTION_GREEN_RIGHT;
+	public static final DeferredItem<Item> ROADSIGN_DISABLED;
+	public static final DeferredItem<Item> MARKING_NON_MOTORIZED_VEHICLES;
+	public static final DeferredItem<Item> SIGN_LANE_TURN_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_STRAIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_TURN_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_STRAIGHT_OR_TURN_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_STRAIGHT_OR_TURN_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_UTURN;
+	public static final DeferredItem<Item> SIGN_LANE_UTURN_OR_TURN_LEFT;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -640,6 +657,23 @@ public class NcbRoadblckModItems {
 		MARKING_YIELD = block(NcbRoadblckModBlocks.MARKING_YIELD);
 		MARKING_FIRE_LANE = block(NcbRoadblckModBlocks.MARKING_FIRE_LANE);
 		MARKING_STOP = block(NcbRoadblckModBlocks.MARKING_STOP);
+		MARKING_GONG = block(NcbRoadblckModBlocks.MARKING_GONG);
+		MARKING_JIAO = block(NcbRoadblckModBlocks.MARKING_JIAO);
+		MARKING_CHE = block(NcbRoadblckModBlocks.MARKING_CHE);
+		WHEEL_STOP = block(NcbRoadblckModBlocks.WHEEL_STOP);
+		ROADSIGN_INDUCTION_LEFT = block(NcbRoadblckModBlocks.ROADSIGN_INDUCTION_LEFT);
+		ROADSIGN_INDUCTION_RIGHT = block(NcbRoadblckModBlocks.ROADSIGN_INDUCTION_RIGHT);
+		ROADSIGN_INDUCTION_GREEN_LEFT = block(NcbRoadblckModBlocks.ROADSIGN_INDUCTION_GREEN_LEFT);
+		ROADSIGN_INDUCTION_GREEN_RIGHT = block(NcbRoadblckModBlocks.ROADSIGN_INDUCTION_GREEN_RIGHT);
+		ROADSIGN_DISABLED = block(NcbRoadblckModBlocks.ROADSIGN_DISABLED);
+		MARKING_NON_MOTORIZED_VEHICLES = block(NcbRoadblckModBlocks.MARKING_NON_MOTORIZED_VEHICLES);
+		SIGN_LANE_TURN_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_TURN_LEFT);
+		SIGN_LANE_STRAIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT);
+		SIGN_LANE_TURN_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_TURN_RIGHT);
+		SIGN_LANE_STRAIGHT_OR_TURN_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_LEFT);
+		SIGN_LANE_STRAIGHT_OR_TURN_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_RIGHT);
+		SIGN_LANE_UTURN = block(NcbRoadblckModBlocks.SIGN_LANE_UTURN);
+		SIGN_LANE_UTURN_OR_TURN_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT);
 	}
 
 	// Start of user code block custom items

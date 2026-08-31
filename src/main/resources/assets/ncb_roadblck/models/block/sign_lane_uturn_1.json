@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/sign_lane_turn_left_1",
+  "textures": {
+    "all": "ncb_roadblck:block/sign_lane_uturn",
+    "particle": "ncb_roadblck:block/sign_lane",
+    "1": "ncb_roadblck:block/sign_lane_uturn"
+  },
+  "render_type": "cutout"
+}

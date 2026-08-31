@@ -322,6 +322,23 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> MARKING_YIELD;
 	public static final DeferredBlock<Block> MARKING_FIRE_LANE;
 	public static final DeferredBlock<Block> MARKING_STOP;
+	public static final DeferredBlock<Block> MARKING_GONG;
+	public static final DeferredBlock<Block> MARKING_JIAO;
+	public static final DeferredBlock<Block> MARKING_CHE;
+	public static final DeferredBlock<Block> WHEEL_STOP;
+	public static final DeferredBlock<Block> ROADSIGN_INDUCTION_LEFT;
+	public static final DeferredBlock<Block> ROADSIGN_INDUCTION_RIGHT;
+	public static final DeferredBlock<Block> ROADSIGN_INDUCTION_GREEN_LEFT;
+	public static final DeferredBlock<Block> ROADSIGN_INDUCTION_GREEN_RIGHT;
+	public static final DeferredBlock<Block> ROADSIGN_DISABLED;
+	public static final DeferredBlock<Block> MARKING_NON_MOTORIZED_VEHICLES;
+	public static final DeferredBlock<Block> SIGN_LANE_TURN_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_STRAIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_TURN_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_STRAIGHT_OR_TURN_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_STRAIGHT_OR_TURN_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_UTURN;
+	public static final DeferredBlock<Block> SIGN_LANE_UTURN_OR_TURN_LEFT;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -632,6 +649,23 @@ public class NcbRoadblckModBlocks {
 		MARKING_YIELD = REGISTRY.register("marking_yield", MarkingYieldBlock::new);
 		MARKING_FIRE_LANE = REGISTRY.register("marking_fire_lane", MarkingFireLaneBlock::new);
 		MARKING_STOP = REGISTRY.register("marking_stop", MarkingStopBlock::new);
+		MARKING_GONG = REGISTRY.register("marking_gong", MarkingGongBlock::new);
+		MARKING_JIAO = REGISTRY.register("marking_jiao", MarkingJiaoBlock::new);
+		MARKING_CHE = REGISTRY.register("marking_che", MarkingCheBlock::new);
+		WHEEL_STOP = REGISTRY.register("wheel_stop", WheelStopBlock::new);
+		ROADSIGN_INDUCTION_LEFT = REGISTRY.register("roadsign_induction_left", RoadsignInductionLeftBlock::new);
+		ROADSIGN_INDUCTION_RIGHT = REGISTRY.register("roadsign_induction_right", RoadsignInductionRightBlock::new);
+		ROADSIGN_INDUCTION_GREEN_LEFT = REGISTRY.register("roadsign_induction_green_left", RoadsignInductionGreenLeftBlock::new);
+		ROADSIGN_INDUCTION_GREEN_RIGHT = REGISTRY.register("roadsign_induction_green_right", RoadsignInductionGreenRightBlock::new);
+		ROADSIGN_DISABLED = REGISTRY.register("roadsign_disabled", RoadsignDisabledBlock::new);
+		MARKING_NON_MOTORIZED_VEHICLES = REGISTRY.register("marking_non_motorized_vehicles", MarkingNonMotorizedVehiclesBlock::new);
+		SIGN_LANE_TURN_LEFT = REGISTRY.register("sign_lane_turn_left", SignLaneTurnLeftBlock::new);
+		SIGN_LANE_STRAIGHT = REGISTRY.register("sign_lane_straight", SignLaneStraightBlock::new);
+		SIGN_LANE_TURN_RIGHT = REGISTRY.register("sign_lane_turn_right", SignLaneTurnRightBlock::new);
+		SIGN_LANE_STRAIGHT_OR_TURN_LEFT = REGISTRY.register("sign_lane_straight_or_turn_left", SignLaneStraightOrTurnLeftBlock::new);
+		SIGN_LANE_STRAIGHT_OR_TURN_RIGHT = REGISTRY.register("sign_lane_straight_or_turn_right", SignLaneStraightOrTurnRightBlock::new);
+		SIGN_LANE_UTURN = REGISTRY.register("sign_lane_uturn", SignLaneUturnBlock::new);
+		SIGN_LANE_UTURN_OR_TURN_LEFT = REGISTRY.register("sign_lane_uturn_or_turn_left", SignLaneUturnOrTurnLeftBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

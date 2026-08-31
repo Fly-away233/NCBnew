@@ -313,5 +313,22 @@
   "block.ncb_roadblck.barrier_shape_f": "F型混凝土护栏",
   "block.ncb_roadblck.marking_yield": "礼让行人地标",
   "block.ncb_roadblck.marking_fire_lane": "消防通道地标",
-  "block.ncb_roadblck.marking_stop": "“停”地标"
+  "block.ncb_roadblck.marking_stop": "“停”地标",
+  "block.ncb_roadblck.marking_gong": "“公”地标",
+  "block.ncb_roadblck.marking_jiao": "“交”地标",
+  "block.ncb_roadblck.marking_che": "“车”地标",
+  "block.ncb_roadblck.wheel_stop": "车轮定位器",
+  "block.ncb_roadblck.roadsign_induction_left": "左弯线形诱导标路牌",
+  "block.ncb_roadblck.roadsign_induction_right": "右弯线形诱导标路牌",
+  "block.ncb_roadblck.roadsign_induction_green_left": "左弯指导标路牌",
+  "block.ncb_roadblck.roadsign_induction_green_right": "右弯指导标路牌",
+  "block.ncb_roadblck.roadsign_disabled": "残疾人路牌",
+  "block.ncb_roadblck.marking_non_motorized_vehicles": "非机动车地标",
+  "block.ncb_roadblck.sign_lane_turn_left": "左转车道标牌",
+  "block.ncb_roadblck.sign_lane_straight": "直行车道标牌",
+  "block.ncb_roadblck.sign_lane_turn_right": "右转车道标牌",
+  "block.ncb_roadblck.sign_lane_straight_or_turn_left": "直行左转车道标牌",
+  "block.ncb_roadblck.sign_lane_straight_or_turn_right": "直行右转车道标牌",
+  "block.ncb_roadblck.sign_lane_uturn": "掉头车道标牌",
+  "block.ncb_roadblck.sign_lane_uturn_or_turn_left": "掉头左转车道标牌"
 }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,low=false": { "model": "ncb_roadblck:block/marking_non_motorized_vehicles" },
+    "facing=east,low=false":  { "model": "ncb_roadblck:block/marking_non_motorized_vehicles", "y": 90 },
+    "facing=south,low=false": { "model": "ncb_roadblck:block/marking_non_motorized_vehicles", "y": 180 },
+    "facing=west,low=false":  { "model": "ncb_roadblck:block/marking_non_motorized_vehicles", "y": 270 },
+
+    "facing=north,low=true": { "model": "ncb_roadblck:block/marking_non_motorized_vehicles_low" },
+    "facing=east,low=true":  { "model": "ncb_roadblck:block/marking_non_motorized_vehicles_low", "y": 90 },
+    "facing=south,low=true": { "model": "ncb_roadblck:block/marking_non_motorized_vehicles_low", "y": 180 },
+    "facing=west,low=true":  { "model": "ncb_roadblck:block/marking_non_motorized_vehicles_low", "y": 270 }
+  }
+}

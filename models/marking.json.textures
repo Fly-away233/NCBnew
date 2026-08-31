@@ -143,6 +143,30 @@
       "map": {
         "1": "marking_stop"
       }
+    },
+    "gong": {
+      "name": "gong",
+      "map": {
+        "1": "marking_gong"
+      }
+    },
+    "jiao": {
+      "name": "jiao",
+      "map": {
+        "1": "marking_jiao"
+      }
+    },
+    "che": {
+      "name": "che",
+      "map": {
+        "1": "marking_che"
+      }
+    },
+    "non_motorized_vehicles": {
+      "name": "non_motorized_vehicles",
+      "map": {
+        "1": "marking_non_motorized_vehicles"
+      }
     }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking_low",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_jiao",
+    "particle": "ncb_roadblck:block/marking_jiao",
+    "1": "ncb_roadblck:block/marking_jiao"
+  },
+  "render_type": "cutout"
+}

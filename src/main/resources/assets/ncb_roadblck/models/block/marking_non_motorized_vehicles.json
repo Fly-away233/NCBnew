@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:custom/marking",
+  "textures": {
+    "all": "ncb_roadblck:block/marking_non_motorized_vehicles",
+    "particle": "ncb_roadblck:block/marking_non_motorized_vehicles",
+    "1": "ncb_roadblck:block/marking_non_motorized_vehicles"
+  },
+  "render_type": "cutout"
+}

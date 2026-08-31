@@ -313,5 +313,22 @@
   "block.ncb_roadblck.barrier_shape_f": "Barrier Shape F",
   "block.ncb_roadblck.marking_yield": "Marking Yield",
   "block.ncb_roadblck.marking_fire_lane": "Marking Fire Lane",
-  "block.ncb_roadblck.marking_stop": "Marking Stop"
+  "block.ncb_roadblck.marking_stop": "Marking Stop",
+  "block.ncb_roadblck.marking_gong": "Marking Gong",
+  "block.ncb_roadblck.marking_jiao": "Marking Jiao",
+  "block.ncb_roadblck.marking_che": "Marking Che",
+  "block.ncb_roadblck.wheel_stop": "Wheel Stop",
+  "block.ncb_roadblck.roadsign_induction_left": "Roadsign Induction Left",
+  "block.ncb_roadblck.roadsign_induction_right": "Roadsign Induction Right",
+  "block.ncb_roadblck.roadsign_induction_green_left": "Roadsign Induction Green Left",
+  "block.ncb_roadblck.roadsign_induction_green_right": "Roadsign Induction Green Right",
+  "block.ncb_roadblck.roadsign_disabled": "Roadsign Disabled",
+  "block.ncb_roadblck.marking_non_motorized_vehicles": "Marking Non Motorized Vehicles",
+  "block.ncb_roadblck.sign_lane_turn_left": "Sign Lane Turn Left",
+  "block.ncb_roadblck.sign_lane_straight": "Sign Lane Straight",
+  "block.ncb_roadblck.sign_lane_turn_right": "Sign Lane Turn Right",
+  "block.ncb_roadblck.sign_lane_straight_or_turn_left": "Sign Lane Straight Or Turn Left",
+  "block.ncb_roadblck.sign_lane_straight_or_turn_right": "Sign Lane Straight Or Turn Left",
+  "block.ncb_roadblck.sign_lane_uturn": "Sign Lane Uturn",
+  "block.ncb_roadblck.sign_lane_uturn_or_turn_left": "Sign Lane Uturn Or Turn Left"
 }

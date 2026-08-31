@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "ncb_roadblck:blocks/sign_lane_turn_right",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ncb_roadblck:sign_lane_turn_right"
+        }
+      ]
+    }
+  ]
+}
