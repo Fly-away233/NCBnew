@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/sign_lane_motor_vehicles_3",
+  "textures": {
+    "all": "ncb_roadblck:block/sign_lane_dedicated_tram",
+    "particle": "ncb_roadblck:block/sign_lane",
+    "1": "ncb_roadblck:block/sign_lane_dedicated_tram"
+  },
+  "render_type": "cutout"
+}

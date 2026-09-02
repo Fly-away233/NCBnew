@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:sign_lane_straight"
+  },
+  "result": {
+    "id": "ncb_roadblck:sign_lane_motor_vehicles_left",
+    "count": 1
+  }
+}

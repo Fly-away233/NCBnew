@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:PatternSteel"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": "CUSTOM:SignLaneStraight",
+    "stoneCuttingReturnStack": "CUSTOM:SignLaneMotorVehiclesRight",
+    "name": "get_sign_lane_motor_vehicles_right",
+    "namespace": "mod"
+  }
+}

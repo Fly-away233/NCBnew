@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/sign_lane_motor_vehicles",
+  "textures": {
+    "all": "ncb_roadblck:block/sign_lane_passenger_car_left",
+    "particle": "ncb_roadblck:block/sign_lane",
+    "1": "ncb_roadblck:block/sign_lane_passenger_car_left"
+  },
+  "render_type": "cutout"
+}

@@ -335,6 +335,24 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_RIGHT.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_UTURN.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_RIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_RIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_BUS.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_BUS_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_BUS_RIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_RIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_LEFT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.SIGN_LANE_MULTI_OCCUPANT_VEHICLES.get().asItem());
 			}).withTabsBefore(ROAD_BLOCK.getId()).build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ROAD_FACILITIES = REGISTRY.register("road_facilities",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.ncb_roadblck.road_facilities")).icon(() -> new ItemStack(NcbRoadblckModItems.ELECTRIC_WRENCH.get())).displayItems((parameters, tabData) -> {

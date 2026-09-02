@@ -345,6 +345,24 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> SIGN_LANE_STRAIGHT_OR_TURN_RIGHT;
 	public static final DeferredItem<Item> SIGN_LANE_UTURN;
 	public static final DeferredItem<Item> SIGN_LANE_UTURN_OR_TURN_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_BIKE_STRAIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_MOTOR_VEHICLES;
+	public static final DeferredItem<Item> SIGN_LANE_MOTOR_VEHICLES_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_PASSENGER_CAR;
+	public static final DeferredItem<Item> SIGN_LANE_PASSENGER_CAR_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_PASSENGER_CAR_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_BUS;
+	public static final DeferredItem<Item> SIGN_LANE_BUS_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_BUS_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_DEDICATED_TRAM;
+	public static final DeferredItem<Item> SIGN_LANE_DEDICATED_TRAM_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_DEDICATED_TRAM_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_NON_MOTOR_VEHICLES;
+	public static final DeferredItem<Item> SIGN_LANE_NON_MOTOR_VEHICLES_LEFT;
+	public static final DeferredItem<Item> SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredItem<Item> SIGN_LANE_MULTI_OCCUPANT_VEHICLES;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -674,6 +692,24 @@ public class NcbRoadblckModItems {
 		SIGN_LANE_STRAIGHT_OR_TURN_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_RIGHT);
 		SIGN_LANE_UTURN = block(NcbRoadblckModBlocks.SIGN_LANE_UTURN);
 		SIGN_LANE_UTURN_OR_TURN_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT);
+		SIGN_LANE_BIKE_STRAIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT);
+		SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT);
+		SIGN_LANE_MOTOR_VEHICLES = block(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES);
+		SIGN_LANE_MOTOR_VEHICLES_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_LEFT);
+		SIGN_LANE_MOTOR_VEHICLES_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_RIGHT);
+		SIGN_LANE_PASSENGER_CAR = block(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR);
+		SIGN_LANE_PASSENGER_CAR_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_LEFT);
+		SIGN_LANE_PASSENGER_CAR_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_RIGHT);
+		SIGN_LANE_BUS = block(NcbRoadblckModBlocks.SIGN_LANE_BUS);
+		SIGN_LANE_BUS_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_BUS_LEFT);
+		SIGN_LANE_BUS_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_BUS_RIGHT);
+		SIGN_LANE_DEDICATED_TRAM = block(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM);
+		SIGN_LANE_DEDICATED_TRAM_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_LEFT);
+		SIGN_LANE_DEDICATED_TRAM_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_RIGHT);
+		SIGN_LANE_NON_MOTOR_VEHICLES = block(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES);
+		SIGN_LANE_NON_MOTOR_VEHICLES_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_LEFT);
+		SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT);
+		SIGN_LANE_MULTI_OCCUPANT_VEHICLES = block(NcbRoadblckModBlocks.SIGN_LANE_MULTI_OCCUPANT_VEHICLES);
 	}
 
 	// Start of user code block custom items

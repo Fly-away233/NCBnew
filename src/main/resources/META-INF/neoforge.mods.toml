@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="ncb_roadblck"
-version="1.2.5"
+version="1.2.6"
 displayName="\u65B0\u4E16\u7EAA\u9053\u8DEF\u65B9\u5757"
 displayURL="https://ifdian.net/a/aizhexia"
 logoFile="logo.png"

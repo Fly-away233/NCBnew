@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,left=false,right=false": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right" },
+    "facing=east,left=false,right=false":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right", "y": 90 },
+    "facing=south,left=false,right=false": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right", "y": 180 },
+    "facing=west,left=false,right=false":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right", "y": 270 },
+
+    "facing=north,left=true,right=false": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_1" },
+    "facing=east,left=true,right=false":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_1", "y": 90 },
+    "facing=south,left=true,right=false": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_1", "y": 180 },
+    "facing=west,left=true,right=false":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_1", "y": 270 },
+
+    "facing=north,left=false,right=true": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_2" },
+    "facing=east,left=false,right=true":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_2", "y": 90 },
+    "facing=south,left=false,right=true": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_2", "y": 180 },
+    "facing=west,left=false,right=true":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_2", "y": 270 },
+
+    "facing=north,left=true,right=true": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_3" },
+    "facing=east,left=true,right=true":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_3", "y": 90 },
+    "facing=south,left=true,right=true": { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_3", "y": 180 },
+    "facing=west,left=true,right=true":  { "model": "ncb_roadblck:block/sign_lane_dedicated_tram_right_3", "y": 270 }
+  }
+}

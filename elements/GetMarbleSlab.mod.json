@@ -14,7 +14,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "stoneCuttingInputStack": "CUSTOM:Marble",
-    "stoneCuttingReturnStack": "CUSTOM:ShoulderMarbleSlab",
+    "stoneCuttingReturnStack": "CUSTOM:MarbleSlab",
     "name": "get_marble_slab",
     "namespace": "mod"
   }

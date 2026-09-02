@@ -310,8 +310,8 @@
 		},
 		"gui": {
 			"rotation": [28, -152, 0],
-			"translation": [1.75, -5, 0],
-			"scale": [0.5, 0.5, 0.5]
+			"translation": [2, -6, 0],
+			"scale": [0.6, 0.6, 0.6]
 		},
 		"head": {
 			"translation": [0, -6, -13.75]

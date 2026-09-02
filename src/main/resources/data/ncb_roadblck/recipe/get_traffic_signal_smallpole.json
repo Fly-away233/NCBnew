@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ncb_roadblck:pattern_steel"
+  },
+  "result": {
+    "id": "ncb_roadblck:traffic_signal_smallpole",
+    "count": 1
+  }
+}

@@ -339,6 +339,24 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> SIGN_LANE_STRAIGHT_OR_TURN_RIGHT;
 	public static final DeferredBlock<Block> SIGN_LANE_UTURN;
 	public static final DeferredBlock<Block> SIGN_LANE_UTURN_OR_TURN_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_BIKE_STRAIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_MOTOR_VEHICLES;
+	public static final DeferredBlock<Block> SIGN_LANE_MOTOR_VEHICLES_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_PASSENGER_CAR;
+	public static final DeferredBlock<Block> SIGN_LANE_PASSENGER_CAR_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_PASSENGER_CAR_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_BUS;
+	public static final DeferredBlock<Block> SIGN_LANE_BUS_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_BUS_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_DEDICATED_TRAM;
+	public static final DeferredBlock<Block> SIGN_LANE_DEDICATED_TRAM_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_DEDICATED_TRAM_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_NON_MOTOR_VEHICLES;
+	public static final DeferredBlock<Block> SIGN_LANE_NON_MOTOR_VEHICLES_LEFT;
+	public static final DeferredBlock<Block> SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredBlock<Block> SIGN_LANE_MULTI_OCCUPANT_VEHICLES;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -666,6 +684,24 @@ public class NcbRoadblckModBlocks {
 		SIGN_LANE_STRAIGHT_OR_TURN_RIGHT = REGISTRY.register("sign_lane_straight_or_turn_right", SignLaneStraightOrTurnRightBlock::new);
 		SIGN_LANE_UTURN = REGISTRY.register("sign_lane_uturn", SignLaneUturnBlock::new);
 		SIGN_LANE_UTURN_OR_TURN_LEFT = REGISTRY.register("sign_lane_uturn_or_turn_left", SignLaneUturnOrTurnLeftBlock::new);
+		SIGN_LANE_BIKE_STRAIGHT = REGISTRY.register("sign_lane_bike_straight", SignLaneBikeStraightBlock::new);
+		SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT = REGISTRY.register("sign_lane_bike_straight_or_turn_left", SignLaneBikeStraightOrTurnLeftBlock::new);
+		SIGN_LANE_MOTOR_VEHICLES = REGISTRY.register("sign_lane_motor_vehicles", SignLaneMotorVehiclesBlock::new);
+		SIGN_LANE_MOTOR_VEHICLES_LEFT = REGISTRY.register("sign_lane_motor_vehicles_left", SignLaneMotorVehiclesLeftBlock::new);
+		SIGN_LANE_MOTOR_VEHICLES_RIGHT = REGISTRY.register("sign_lane_motor_vehicles_right", SignLaneMotorVehiclesRightBlock::new);
+		SIGN_LANE_PASSENGER_CAR = REGISTRY.register("sign_lane_passenger_car", SignLanePassengerCarBlock::new);
+		SIGN_LANE_PASSENGER_CAR_LEFT = REGISTRY.register("sign_lane_passenger_car_left", SignLanePassengerCarLeftBlock::new);
+		SIGN_LANE_PASSENGER_CAR_RIGHT = REGISTRY.register("sign_lane_passenger_car_right", SignLanePassengerCarRightBlock::new);
+		SIGN_LANE_BUS = REGISTRY.register("sign_lane_bus", SignLaneBusBlock::new);
+		SIGN_LANE_BUS_LEFT = REGISTRY.register("sign_lane_bus_left", SignLaneBusLeftBlock::new);
+		SIGN_LANE_BUS_RIGHT = REGISTRY.register("sign_lane_bus_right", SignLaneBusRightBlock::new);
+		SIGN_LANE_DEDICATED_TRAM = REGISTRY.register("sign_lane_dedicated_tram", SignLaneDedicatedTramBlock::new);
+		SIGN_LANE_DEDICATED_TRAM_LEFT = REGISTRY.register("sign_lane_dedicated_tram_left", SignLaneDedicatedTramLeftBlock::new);
+		SIGN_LANE_DEDICATED_TRAM_RIGHT = REGISTRY.register("sign_lane_dedicated_tram_right", SignLaneDedicatedTramRightBlock::new);
+		SIGN_LANE_NON_MOTOR_VEHICLES = REGISTRY.register("sign_lane_non_motor_vehicles", SignLaneNonMotorVehiclesBlock::new);
+		SIGN_LANE_NON_MOTOR_VEHICLES_LEFT = REGISTRY.register("sign_lane_non_motor_vehicles_left", SignLaneNonMotorVehiclesLeftBlock::new);
+		SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT = REGISTRY.register("sign_lane_non_motor_vehicles_right", SignLaneNonMotorVehiclesRightBlock::new);
+		SIGN_LANE_MULTI_OCCUPANT_VEHICLES = REGISTRY.register("sign_lane_multi_occupant_vehicles", SignLaneMultiOccupantVehiclesBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
