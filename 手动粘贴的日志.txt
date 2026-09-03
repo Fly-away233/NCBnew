@@ -1,0 +1,77 @@
+Calculating task graph as configuration cache cannot be reused because file '..\NCBnew\settings.gradle' has been removed. 
+> Task :writeClientLegacyClasspath 
+> Task :createMinecraftArtifacts 
+Performing periodic cache maintenance on C:\Users\Administrator\.mcreator\gradle\caches\neoformruntime 
+Cleaning intermediate results cache in C:\Users\Administrator\.mcreator\gradle\caches\neoformruntime\intermediate_results 
+Maximum age: 744h 
+Maximum cache size: 10 GiB 
+101 files found 
+718 MiB overall size 
+0 expired keys found 
+Deleted 33 outdated lock files 
+Loaded 145 artifacts from D:\1\NCBnew1.21.1\build\tmp\createMinecraftArtifacts\nfrt_artifact_manifest.properties 
+DONE  Completed downloadJson in 0.03s 
+DONE  Completed downloadClient in 0.05s 
+DONE  Completed downloadServer in 0.05s 
+DONE  Completed downloadClientMappings in 0.05s 
+REUSE Used cache of mergeMappings in 0.00s 
+REUSE Used cache of stripClient in 0.00s 
+REUSE Used cache of extractServer in 0.00s 
+REUSE Used cache of stripServer in 0.00s 
+REUSE Used cache of merge in 0.00s 
+REUSE Used cache of rename in 0.00s 
+REUSE Used cache of decompile in 0.00s 
+REUSE Used cache of inject in 0.00s 
+REUSE Used cache of patch in 0.00s 
+REUSE Used cache of applyNeoforgePatches in 0.00s 
+REUSE Used cache of transformSources in 0.00s 
+REUSE Used cache of recompile in 0.00s 
+> Task :downloadAssets 
+Loaded 145 artifacts from D:\1\NCBnew1.21.1\build\tmp\downloadAssets\nfrt_artifact_manifest.properties 
+Downloading asset index 17 
+Using Minecraft asset root: C:\Users\Administrator\.mcreator\gradle\caches\neoformruntime\assets 
+  DL    https://piston-meta.mojang.com/v1/packages/818f68d092986c6933366762f435889884c36a52/17.json 
+> Task :prepareClientRun 
+> Task :createMinecraftArtifacts 
+REUSE Used cache of sourcesWithNeoForge in 0.00s 
+REUSE Used cache of compiledWithNeoForge in 0.00s 
+REUSE Used cache of sourcesAndCompiledWithNeoForge in 0.00s 
+Total runtime: 2.10s 
+> Task :compileJava 
+D:\1\NCBnew1.21.1\src\main\java\net\flyaway\ncbroadblck\item\ElectricWrenchItem.java:184: error: cannot find symbol 
+                wrenchBreak(serverLevel, pos, state, player, context.getItem()); 
+                                                                    ^ 
+  symbol:   method getItem() 
+  location: variable context of type UseOnContext 
+D:\1\NCBnew1.21.1\src\main\java\net\flyaway\ncbroadblck\item\ElectricWrenchItem.java:186: error: cannot find symbol 
+            playUseFeedback(player, context.getItem(), level, pos); 
+                                           ^ 
+  symbol:   method getItem() 
+  location: variable context of type UseOnContext 
+D:\1\NCBnew1.21.1\src\main\java\net\flyaway\ncbroadblck\item\ElectricWrenchItem.java:202: error: cannot find symbol 
+            playUseFeedback(player, context.getItem(), level, pos); 
+                                           ^ 
+  symbol:   method getItem() 
+  location: variable context of type UseOnContext 
+> Task :processResources 
+> Task :compileJava FAILED 
+3 errors 
+FAILURE: Build failed with an exception. 
+* What went wrong: 
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin'). 
+> Compilation failed; see the compiler output below. 
+D:\1\NCBnew1.21.1\src\main\java\net\flyaway\ncbroadblck\item\ElectricWrenchItem.java:184: error: cannot find symbol 
+                  wrenchBreak(serverLevel, pos, state, player, context.getItem()); 
+                                                                      ^ 
+    symbol:   method getItem() 
+    location: variable context of type UseOnContext 
+  3 errors 
+* Try: 
+> Check your code and dependencies to fix the compilation error(s) 
+> Run with --scan to get full insights from a Build Scan (powered by Develocity). 
+BUILD FAILED in 26s 
+6 actionable tasks: 6 executed 
+Configuration cache entry stored. 
+ 
+BUILD FAILED 
+Task completed in 52 seconds
