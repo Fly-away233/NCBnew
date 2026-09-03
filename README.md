@@ -36,7 +36,13 @@ Translated with DeepL.com (free version)
 
 修复三个杆模型、车轮定位器、大理石台阶、沥青底座右路肩缓坡、大理石底座路肩配方错误或缺失的问题
 修复大部分方块生存模式下本该能用镐子挖掘但是无法使用的问题
+修复1.21.4版本与玉（Jade）方块查看模组导致方块名称无法显示中文名的问题
 添加非机动车直行车道标牌、非机动车直行左转车道标牌、机动车道标牌、机动车道左标牌、机动车道右标牌、小型客车道标牌、小型客车道左标牌、小型客车道右标牌、公交车道标牌、公交车道左标牌、公交车道右标牌、有轨电车道标牌、有轨电车道左标牌、有轨电车道右标牌、非机动车道标牌、非机动车道左标牌、非机动车道右标牌、多乘员车辆专用车道即配方
+
+Fixed issues with missing or incorrect recipes for the following blocks: three-pole model, Wheel Stop, Marble Slab, Shoulder Asphalt R Slope Pro, and Shoulder Marble Slab.
+Fixed an issue where most blocks that should have been mineable with a pickaxe in Survival mode could not be mined
+Fixed an issue in version 1.21.4 where the Jade block viewer mod prevented Chinese block names from displaying
+Added Sign Lane Bike Straight, Sign Lane Bike Straight Or Turn Left, Sign Lane Motor Vehicles, Sign Lane Motor Vehicles Left, Sign Lane Motor Vehicles Right, Sign Lane Passenger Car, Sign Lane Passenger Car Left, Sign Lane Passenger Car Left Right, Sign Lane Bus, Sign Lane Bus Left, Sign Lane Bus Right, Sign Lane Dedicated Tram, Sign Lane Dedicated Tram Left, Sign Lane Dedicated Tram Left, Sign Lane Non Motor Vehicles, Sign Lane Non Motor Vehicles, Sign Lane Non Motor Vehicles, Sign Lane Multi Occupant Vehicles, as well as the recipes for these blocks.
 
 更新日志 1.2.5版本 Version 1.2.5
 ----------------------------------------------------------------------------------------------------------------------
