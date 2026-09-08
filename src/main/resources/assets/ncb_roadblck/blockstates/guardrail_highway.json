@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "facing=north,connect=none,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_4", "y": 0 },
+    "facing=east,connect=none,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_4", "y": 90 },
+    "facing=south,connect=none,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_4", "y": 180 },
+    "facing=west,connect=none,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_4", "y": 270 },
+    "facing=north,connect=none,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_4_low", "y": 0 },
+    "facing=east,connect=none,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_4_low", "y": 90 },
+    "facing=south,connect=none,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_4_low", "y": 180 },
+    "facing=west,connect=none,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_4_low", "y": 270 },
+
+    "facing=north,connect=left,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_3", "y": 0 },
+    "facing=east,connect=left,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_3", "y": 90 },
+    "facing=south,connect=left,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_3", "y": 180 },
+    "facing=west,connect=left,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_3", "y": 270 },
+    "facing=north,connect=left,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_3_low", "y": 0 },
+    "facing=east,connect=left,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_3_low", "y": 90 },
+    "facing=south,connect=left,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_3_low", "y": 180 },
+    "facing=west,connect=left,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_3_low", "y": 270 },
+
+    "facing=north,connect=right,low=false":  { "model": "ncb_roadblck:block/guardrail_highway_2", "y": 0 },
+    "facing=east,connect=right,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_2", "y": 90 },
+    "facing=south,connect=right,low=false":  { "model": "ncb_roadblck:block/guardrail_highway_2", "y": 180 },
+    "facing=west,connect=right,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_2", "y": 270 },
+    "facing=north,connect=right,low=true":   { "model": "ncb_roadblck:block/guardrail_highway_2_low", "y": 0 },
+    "facing=east,connect=right,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_2_low", "y": 90 },
+    "facing=south,connect=right,low=true":   { "model": "ncb_roadblck:block/guardrail_highway_2_low", "y": 180 },
+    "facing=west,connect=right,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_2_low", "y": 270 },
+
+    "facing=north,connect=middle,low=false": { "model": "ncb_roadblck:block/guardrail_highway_5", "y": 0 },
+    "facing=east,connect=middle,low=false":  { "model": "ncb_roadblck:block/guardrail_highway_5", "y": 90 },
+    "facing=south,connect=middle,low=false": { "model": "ncb_roadblck:block/guardrail_highway_5", "y": 180 },
+    "facing=west,connect=middle,low=false":  { "model": "ncb_roadblck:block/guardrail_highway_5", "y": 270 },
+    "facing=north,connect=middle,low=true":  { "model": "ncb_roadblck:block/guardrail_highway_5_low", "y": 0 },
+    "facing=east,connect=middle,low=true":   { "model": "ncb_roadblck:block/guardrail_highway_5_low", "y": 90 },
+    "facing=south,connect=middle,low=true":  { "model": "ncb_roadblck:block/guardrail_highway_5_low", "y": 180 },
+    "facing=west,connect=middle,low=true":   { "model": "ncb_roadblck:block/guardrail_highway_5_low", "y": 270 },
+
+    "facing=north,connect=both,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_1", "y": 0 },
+    "facing=east,connect=both,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_1", "y": 90 },
+    "facing=south,connect=both,low=false":   { "model": "ncb_roadblck:block/guardrail_highway_1", "y": 180 },
+    "facing=west,connect=both,low=false":    { "model": "ncb_roadblck:block/guardrail_highway_1", "y": 270 },
+    "facing=north,connect=both,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_1_low", "y": 0 },
+    "facing=east,connect=both,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_1_low", "y": 90 },
+    "facing=south,connect=both,low=true":    { "model": "ncb_roadblck:block/guardrail_highway_1_low", "y": 180 },
+    "facing=west,connect=both,low=true":     { "model": "ncb_roadblck:block/guardrail_highway_1_low", "y": 270 }
+  }
+}

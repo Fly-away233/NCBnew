@@ -348,5 +348,9 @@
   "block.ncb_roadblck.sign_lane_non_motor_vehicles": "Sign Lane Non Motor Vehicles",
   "block.ncb_roadblck.sign_lane_non_motor_vehicles_left": "Sign Lane Non Motor Vehicles",
   "block.ncb_roadblck.sign_lane_non_motor_vehicles_right": "Sign Lane Non Motor Vehicles",
-  "block.ncb_roadblck.sign_lane_multi_occupant_vehicles": "Sign Lane Multi Occupant Vehicles"
+  "block.ncb_roadblck.sign_lane_multi_occupant_vehicles": "Sign Lane Multi Occupant Vehicles",
+  "block.ncb_roadblck.cement_raingrate": "Cement Raingrate",
+  "block.ncb_roadblck.cement_raingrate_slab": "Cement Raingrate Slab",
+  "block.ncb_roadblck.guardrail_highway": "Guardrail Highway",
+  "block.ncb_roadblck.guardrail_highway_white": "Guardrail Highway White"
 }

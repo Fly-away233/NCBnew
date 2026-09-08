@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "facing=north,left=false,right=false,waterlogged=false": { "model": "ncb_roadblck:block/cement_raingrate_3", "y": 0 },
+    "facing=north,left=false,right=false,waterlogged=true":  { "model": "ncb_roadblck:block/cement_raingrate_3", "y": 0 },
+    "facing=north,left=false,right=true,waterlogged=false":  { "model": "ncb_roadblck:block/cement_raingrate_1", "y": 0 },
+    "facing=north,left=false,right=true,waterlogged=true":   { "model": "ncb_roadblck:block/cement_raingrate_1", "y": 0 },
+    "facing=north,left=true,right=false,waterlogged=false":  { "model": "ncb_roadblck:block/cement_raingrate_2", "y": 0 },
+    "facing=north,left=true,right=false,waterlogged=true":   { "model": "ncb_roadblck:block/cement_raingrate_2", "y": 0 },
+    "facing=north,left=true,right=true,waterlogged=false":   { "model": "ncb_roadblck:block/cement_raingrate",   "y": 0 },
+    "facing=north,left=true,right=true,waterlogged=true":    { "model": "ncb_roadblck:block/cement_raingrate",   "y": 0 },
+
+    "facing=east,left=false,right=false,waterlogged=false":  { "model": "ncb_roadblck:block/cement_raingrate_3", "y": 90 },
+    "facing=east,left=false,right=false,waterlogged=true":   { "model": "ncb_roadblck:block/cement_raingrate_3", "y": 90 },
+    "facing=east,left=false,right=true,waterlogged=false":   { "model": "ncb_roadblck:block/cement_raingrate_1", "y": 90 },
+    "facing=east,left=false,right=true,waterlogged=true":    { "model": "ncb_roadblck:block/cement_raingrate_1", "y": 90 },
+    "facing=east,left=true,right=false,waterlogged=false":   { "model": "ncb_roadblck:block/cement_raingrate_2", "y": 90 },
+    "facing=east,left=true,right=false,waterlogged=true":    { "model": "ncb_roadblck:block/cement_raingrate_2", "y": 90 },
+    "facing=east,left=true,right=true,waterlogged=false":    { "model": "ncb_roadblck:block/cement_raingrate",   "y": 90 },
+    "facing=east,left=true,right=true,waterlogged=true":     { "model": "ncb_roadblck:block/cement_raingrate",   "y": 90 }
+  }
+}

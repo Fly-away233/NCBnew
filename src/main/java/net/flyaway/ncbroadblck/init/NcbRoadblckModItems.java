@@ -363,6 +363,10 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> SIGN_LANE_NON_MOTOR_VEHICLES_LEFT;
 	public static final DeferredItem<Item> SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT;
 	public static final DeferredItem<Item> SIGN_LANE_MULTI_OCCUPANT_VEHICLES;
+	public static final DeferredItem<Item> CEMENT_RAINGRATE;
+	public static final DeferredItem<Item> CEMENT_RAINGRATE_SLAB;
+	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY;
+	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY_WHITE;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -710,6 +714,10 @@ public class NcbRoadblckModItems {
 		SIGN_LANE_NON_MOTOR_VEHICLES_LEFT = block(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_LEFT);
 		SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT = block(NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT);
 		SIGN_LANE_MULTI_OCCUPANT_VEHICLES = block(NcbRoadblckModBlocks.SIGN_LANE_MULTI_OCCUPANT_VEHICLES);
+		CEMENT_RAINGRATE = block(NcbRoadblckModBlocks.CEMENT_RAINGRATE);
+		CEMENT_RAINGRATE_SLAB = block(NcbRoadblckModBlocks.CEMENT_RAINGRATE_SLAB);
+		GUARDRAIL_HIGHWAY = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY);
+		GUARDRAIL_HIGHWAY_WHITE = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_WHITE);
 	}
 
 	// Start of user code block custom items

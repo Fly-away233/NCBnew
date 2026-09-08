@@ -357,6 +357,10 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> SIGN_LANE_NON_MOTOR_VEHICLES_LEFT;
 	public static final DeferredBlock<Block> SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT;
 	public static final DeferredBlock<Block> SIGN_LANE_MULTI_OCCUPANT_VEHICLES;
+	public static final DeferredBlock<Block> CEMENT_RAINGRATE;
+	public static final DeferredBlock<Block> CEMENT_RAINGRATE_SLAB;
+	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY;
+	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY_WHITE;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -702,6 +706,10 @@ public class NcbRoadblckModBlocks {
 		SIGN_LANE_NON_MOTOR_VEHICLES_LEFT = REGISTRY.register("sign_lane_non_motor_vehicles_left", SignLaneNonMotorVehiclesLeftBlock::new);
 		SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT = REGISTRY.register("sign_lane_non_motor_vehicles_right", SignLaneNonMotorVehiclesRightBlock::new);
 		SIGN_LANE_MULTI_OCCUPANT_VEHICLES = REGISTRY.register("sign_lane_multi_occupant_vehicles", SignLaneMultiOccupantVehiclesBlock::new);
+		CEMENT_RAINGRATE = REGISTRY.register("cement_raingrate", CementRaingrateBlock::new);
+		CEMENT_RAINGRATE_SLAB = REGISTRY.register("cement_raingrate_slab", CementRaingrateSlabBlock::new);
+		GUARDRAIL_HIGHWAY = REGISTRY.register("guardrail_highway", GuardrailHighwayBlock::new);
+		GUARDRAIL_HIGHWAY_WHITE = REGISTRY.register("guardrail_highway_white", GuardrailHighwayWhiteBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -348,5 +348,9 @@
   "block.ncb_roadblck.sign_lane_non_motor_vehicles": "非机动车道标牌",
   "block.ncb_roadblck.sign_lane_non_motor_vehicles_left": "非机动车道左标牌",
   "block.ncb_roadblck.sign_lane_non_motor_vehicles_right": "非机动车道右标牌",
-  "block.ncb_roadblck.sign_lane_multi_occupant_vehicles": "多乘员车辆专用车道"
+  "block.ncb_roadblck.sign_lane_multi_occupant_vehicles": "多乘员车辆专用车道",
+  "block.ncb_roadblck.cement_raingrate": "水泥排水沟",
+  "block.ncb_roadblck.cement_raingrate_slab": "水泥排水沟台阶",
+  "block.ncb_roadblck.guardrail_highway": "高速道路护栏",
+  "block.ncb_roadblck.guardrail_highway_white": "白色高速道路护栏"
 }

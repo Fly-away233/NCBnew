@@ -369,5 +369,9 @@ public class NcbRoadblckModTabs {
 				tabData.accept(NcbRoadblckModBlocks.BARRIER_SHAPE_F.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.SPEED_BUMP.get().asItem());
 				tabData.accept(NcbRoadblckModBlocks.WHEEL_STOP.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.CEMENT_RAINGRATE.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.CEMENT_RAINGRATE_SLAB.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY.get().asItem());
+				tabData.accept(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_WHITE.get().asItem());
 			}).withTabsBefore(ROAD_MARKING_SIGN.getId()).build());
 }
