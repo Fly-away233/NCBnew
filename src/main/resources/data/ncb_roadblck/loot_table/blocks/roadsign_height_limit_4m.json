@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "ncb_roadblck:blocks/roadsign_height_limit_4m",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ncb_roadblck:roadsign_height_limit_4m"
+        }
+      ]
+    }
+  ]
+}

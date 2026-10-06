@@ -252,7 +252,31 @@ public class ElectricWrenchItem extends Item implements GeoItem {
 					NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_LEFT.get(),
 					NcbRoadblckModBlocks.SIGN_LANE_STRAIGHT_OR_TURN_RIGHT.get(),
 					NcbRoadblckModBlocks.SIGN_LANE_UTURN.get(),
-					NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT.get()
+					NcbRoadblckModBlocks.SIGN_LANE_UTURN_OR_TURN_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_BIKE_STRAIGHT_OR_TURN_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_MOTOR_VEHICLES_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_PASSENGER_CAR_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_BUS.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_BUS_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_BUS_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_DEDICATED_TRAM_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_LEFT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_NON_MOTOR_VEHICLES_RIGHT.get(),
+					NcbRoadblckModBlocks.SIGN_LANE_MULTI_OCCUPANT_VEHICLES.get(),
+					NcbRoadblckModBlocks.CEMENT_RAINGRATE.get(),
+					NcbRoadblckModBlocks.CEMENT_RAINGRATE_SLAB.get(),
+					NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY.get(),
+					NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_WHITE.get(),
+					NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_BLUE.get(),
+					NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_YELLOW.get()
                     );
             roadFacilitiesBlocksCache = blocks;
         }

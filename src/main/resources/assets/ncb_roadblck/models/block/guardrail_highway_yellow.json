@@ -1,0 +1,8 @@
+{
+  "parent": "ncb_roadblck:block/guardrail_highway",
+  "textures": {
+    "all": "ncb_roadblck:block/guardrail_highway_yellow",
+    "particle": "ncb_roadblck:block/guardrail_highway_yellow",
+    "1": "ncb_roadblck:block/guardrail_highway_yellow"
+  }
+}

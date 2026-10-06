@@ -1,0 +1,9 @@
+{
+  "parent": "ncb_roadblck:block/roadsign_no_entry",
+  "textures": {
+    "all": "ncb_roadblck:block/roadsign_height_limit_4m",
+    "particle": "ncb_roadblck:block/pattern_steel",
+    "0": "ncb_roadblck:block/roadsign_height_limit_4m"
+  },
+  "render_type": "cutout"
+}

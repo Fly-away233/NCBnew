@@ -361,6 +361,21 @@ public class NcbRoadblckModBlocks {
 	public static final DeferredBlock<Block> CEMENT_RAINGRATE_SLAB;
 	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY;
 	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY_WHITE;
+	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY_BLUE;
+	public static final DeferredBlock<Block> GUARDRAIL_HIGHWAY_YELLOW;
+	public static final DeferredBlock<Block> BLIND_PATH_BAR_PLATE;
+	public static final DeferredBlock<Block> BLIND_PATH_DOT_PLATE;
+	public static final DeferredBlock<Block> ROADSIGN_WIDTH_LIMIT_3M;
+	public static final DeferredBlock<Block> ROADSIGN_WIDTH_LIMIT_4M;
+	public static final DeferredBlock<Block> ROADSIGN_WIDTH_LIMIT_5M;
+	public static final DeferredBlock<Block> ROADSIGN_MOTOR_VEHICLES_LEFT;
+	public static final DeferredBlock<Block> ROADSIGN_NON_MOTORIZED_VEHICLES_RIGHT;
+	public static final DeferredBlock<Block> ROADSIGN_HEIGHT_LIMIT_3M;
+	public static final DeferredBlock<Block> ROADSIGN_HEIGHT_LIMIT_4M;
+	public static final DeferredBlock<Block> ROADSIGN_HEIGHT_LIMIT_5M;
+	public static final DeferredBlock<Block> ROADSIGN_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredBlock<Block> ROADSIGN_NON_MOTORIZED_VEHICLES_LEFT;
+	public static final DeferredBlock<Block> ROADSIGN_SLOW;
 	static {
 		ASPHALT_ROAD = REGISTRY.register("asphalt_road", AsphaltRoadBlock::new);
 		ASPHALT_ROAD_SLAB = REGISTRY.register("asphalt_road_slab", AsphaltRoadSlabBlock::new);
@@ -710,6 +725,21 @@ public class NcbRoadblckModBlocks {
 		CEMENT_RAINGRATE_SLAB = REGISTRY.register("cement_raingrate_slab", CementRaingrateSlabBlock::new);
 		GUARDRAIL_HIGHWAY = REGISTRY.register("guardrail_highway", GuardrailHighwayBlock::new);
 		GUARDRAIL_HIGHWAY_WHITE = REGISTRY.register("guardrail_highway_white", GuardrailHighwayWhiteBlock::new);
+		GUARDRAIL_HIGHWAY_BLUE = REGISTRY.register("guardrail_highway_blue", GuardrailHighwayBlueBlock::new);
+		GUARDRAIL_HIGHWAY_YELLOW = REGISTRY.register("guardrail_highway_yellow", GuardrailHighwayYellowBlock::new);
+		BLIND_PATH_BAR_PLATE = REGISTRY.register("blind_path_bar_plate", BlindPathBarPlateBlock::new);
+		BLIND_PATH_DOT_PLATE = REGISTRY.register("blind_path_dot_plate", BlindPathDotPlateBlock::new);
+		ROADSIGN_WIDTH_LIMIT_3M = REGISTRY.register("roadsign_width_limit_3m", RoadsignWidthLimit3mBlock::new);
+		ROADSIGN_WIDTH_LIMIT_4M = REGISTRY.register("roadsign_width_limit_4m", RoadsignWidthLimit4mBlock::new);
+		ROADSIGN_WIDTH_LIMIT_5M = REGISTRY.register("roadsign_width_limit_5m", RoadsignWidthLimit5mBlock::new);
+		ROADSIGN_MOTOR_VEHICLES_LEFT = REGISTRY.register("roadsign_motor_vehicles_left", RoadsignMotorVehiclesLeftBlock::new);
+		ROADSIGN_NON_MOTORIZED_VEHICLES_RIGHT = REGISTRY.register("roadsign_non_motorized_vehicles_right", RoadsignNonMotorizedVehiclesRightBlock::new);
+		ROADSIGN_HEIGHT_LIMIT_3M = REGISTRY.register("roadsign_height_limit_3m", RoadsignHeightLimit3mBlock::new);
+		ROADSIGN_HEIGHT_LIMIT_4M = REGISTRY.register("roadsign_height_limit_4m", RoadsignHeightLimit4mBlock::new);
+		ROADSIGN_HEIGHT_LIMIT_5M = REGISTRY.register("roadsign_height_limit_5m", RoadsignHeightLimit5mBlock::new);
+		ROADSIGN_MOTOR_VEHICLES_RIGHT = REGISTRY.register("roadsign_motor_vehicles_right", RoadsignMotorVehiclesRightBlock::new);
+		ROADSIGN_NON_MOTORIZED_VEHICLES_LEFT = REGISTRY.register("roadsign_non_motorized_vehicles_left", RoadsignNonMotorizedVehiclesLeftBlock::new);
+		ROADSIGN_SLOW = REGISTRY.register("roadsign_slow", RoadsignSlowBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

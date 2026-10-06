@@ -351,6 +351,21 @@
   "block.ncb_roadblck.sign_lane_multi_occupant_vehicles": "多乘员车辆专用车道",
   "block.ncb_roadblck.cement_raingrate": "水泥排水沟",
   "block.ncb_roadblck.cement_raingrate_slab": "水泥排水沟台阶",
-  "block.ncb_roadblck.guardrail_highway": "高速道路护栏",
-  "block.ncb_roadblck.guardrail_highway_white": "白色高速道路护栏"
+  "block.ncb_roadblck.guardrail_highway": "绿色高速道路护栏",
+  "block.ncb_roadblck.guardrail_highway_white": "白色高速道路护栏",
+  "block.ncb_roadblck.guardrail_highway_blue": "蓝色高速道路护栏",
+  "block.ncb_roadblck.guardrail_highway_yellow": "黄色高速道路护栏",
+  "block.ncb_roadblck.blind_path_bar_plate": "行进盲道板",
+  "block.ncb_roadblck.blind_path_dot_plate": "提示盲道板",
+  "block.ncb_roadblck.roadsign_width_limit_3m": "限宽3米路牌",
+  "block.ncb_roadblck.roadsign_width_limit_4m": "限宽4米路牌",
+  "block.ncb_roadblck.roadsign_width_limit_5m": "限宽5米路牌",
+  "block.ncb_roadblck.roadsign_motor_vehicles_left": "机动车行左路牌",
+  "block.ncb_roadblck.roadsign_non_motorized_vehicles_right": "非机动车行右路牌",
+  "block.ncb_roadblck.roadsign_height_limit_3m": "限高3米路牌",
+  "block.ncb_roadblck.roadsign_height_limit_4m": "限高4米路牌",
+  "block.ncb_roadblck.roadsign_height_limit_5m": "限高5米路牌",
+  "block.ncb_roadblck.roadsign_motor_vehicles_right": "机动车行右路牌",
+  "block.ncb_roadblck.roadsign_non_motorized_vehicles_left": "非机动车行左路牌",
+  "block.ncb_roadblck.roadsign_slow": "注意慢行标志"
 }

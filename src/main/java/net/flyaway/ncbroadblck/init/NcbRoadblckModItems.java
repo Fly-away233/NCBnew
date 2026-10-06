@@ -367,6 +367,21 @@ public class NcbRoadblckModItems {
 	public static final DeferredItem<Item> CEMENT_RAINGRATE_SLAB;
 	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY;
 	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY_WHITE;
+	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY_BLUE;
+	public static final DeferredItem<Item> GUARDRAIL_HIGHWAY_YELLOW;
+	public static final DeferredItem<Item> BLIND_PATH_BAR_PLATE;
+	public static final DeferredItem<Item> BLIND_PATH_DOT_PLATE;
+	public static final DeferredItem<Item> ROADSIGN_WIDTH_LIMIT_3M;
+	public static final DeferredItem<Item> ROADSIGN_WIDTH_LIMIT_4M;
+	public static final DeferredItem<Item> ROADSIGN_WIDTH_LIMIT_5M;
+	public static final DeferredItem<Item> ROADSIGN_MOTOR_VEHICLES_LEFT;
+	public static final DeferredItem<Item> ROADSIGN_NON_MOTORIZED_VEHICLES_RIGHT;
+	public static final DeferredItem<Item> ROADSIGN_HEIGHT_LIMIT_3M;
+	public static final DeferredItem<Item> ROADSIGN_HEIGHT_LIMIT_4M;
+	public static final DeferredItem<Item> ROADSIGN_HEIGHT_LIMIT_5M;
+	public static final DeferredItem<Item> ROADSIGN_MOTOR_VEHICLES_RIGHT;
+	public static final DeferredItem<Item> ROADSIGN_NON_MOTORIZED_VEHICLES_LEFT;
+	public static final DeferredItem<Item> ROADSIGN_SLOW;
 	static {
 		ASPHALT_ROAD = block(NcbRoadblckModBlocks.ASPHALT_ROAD);
 		ASPHALT_ROAD_SLAB = block(NcbRoadblckModBlocks.ASPHALT_ROAD_SLAB);
@@ -718,6 +733,21 @@ public class NcbRoadblckModItems {
 		CEMENT_RAINGRATE_SLAB = block(NcbRoadblckModBlocks.CEMENT_RAINGRATE_SLAB);
 		GUARDRAIL_HIGHWAY = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY);
 		GUARDRAIL_HIGHWAY_WHITE = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_WHITE);
+		GUARDRAIL_HIGHWAY_BLUE = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_BLUE);
+		GUARDRAIL_HIGHWAY_YELLOW = block(NcbRoadblckModBlocks.GUARDRAIL_HIGHWAY_YELLOW);
+		BLIND_PATH_BAR_PLATE = block(NcbRoadblckModBlocks.BLIND_PATH_BAR_PLATE);
+		BLIND_PATH_DOT_PLATE = block(NcbRoadblckModBlocks.BLIND_PATH_DOT_PLATE);
+		ROADSIGN_WIDTH_LIMIT_3M = block(NcbRoadblckModBlocks.ROADSIGN_WIDTH_LIMIT_3M);
+		ROADSIGN_WIDTH_LIMIT_4M = block(NcbRoadblckModBlocks.ROADSIGN_WIDTH_LIMIT_4M);
+		ROADSIGN_WIDTH_LIMIT_5M = block(NcbRoadblckModBlocks.ROADSIGN_WIDTH_LIMIT_5M);
+		ROADSIGN_MOTOR_VEHICLES_LEFT = block(NcbRoadblckModBlocks.ROADSIGN_MOTOR_VEHICLES_LEFT);
+		ROADSIGN_NON_MOTORIZED_VEHICLES_RIGHT = block(NcbRoadblckModBlocks.ROADSIGN_NON_MOTORIZED_VEHICLES_RIGHT);
+		ROADSIGN_HEIGHT_LIMIT_3M = block(NcbRoadblckModBlocks.ROADSIGN_HEIGHT_LIMIT_3M);
+		ROADSIGN_HEIGHT_LIMIT_4M = block(NcbRoadblckModBlocks.ROADSIGN_HEIGHT_LIMIT_4M);
+		ROADSIGN_HEIGHT_LIMIT_5M = block(NcbRoadblckModBlocks.ROADSIGN_HEIGHT_LIMIT_5M);
+		ROADSIGN_MOTOR_VEHICLES_RIGHT = block(NcbRoadblckModBlocks.ROADSIGN_MOTOR_VEHICLES_RIGHT);
+		ROADSIGN_NON_MOTORIZED_VEHICLES_LEFT = block(NcbRoadblckModBlocks.ROADSIGN_NON_MOTORIZED_VEHICLES_LEFT);
+		ROADSIGN_SLOW = block(NcbRoadblckModBlocks.ROADSIGN_SLOW);
 	}
 
 	// Start of user code block custom items

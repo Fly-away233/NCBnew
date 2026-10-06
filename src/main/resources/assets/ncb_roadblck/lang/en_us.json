@@ -352,5 +352,20 @@
   "block.ncb_roadblck.cement_raingrate": "Cement Raingrate",
   "block.ncb_roadblck.cement_raingrate_slab": "Cement Raingrate Slab",
   "block.ncb_roadblck.guardrail_highway": "Guardrail Highway",
-  "block.ncb_roadblck.guardrail_highway_white": "Guardrail Highway White"
+  "block.ncb_roadblck.guardrail_highway_white": "Guardrail Highway White",
+  "block.ncb_roadblck.guardrail_highway_blue": "Guardrail Highway Blue",
+  "block.ncb_roadblck.guardrail_highway_yellow": "Guardrail Highway Yellow",
+  "block.ncb_roadblck.blind_path_bar_plate": "Blind Path Bar Plate",
+  "block.ncb_roadblck.blind_path_dot_plate": "Blind Path Dot Plate",
+  "block.ncb_roadblck.roadsign_width_limit_3m": "Roadsign Width Limit 3m",
+  "block.ncb_roadblck.roadsign_width_limit_4m": "Roadsign Width Limit 4m",
+  "block.ncb_roadblck.roadsign_width_limit_5m": "Roadsign Width Limit 5m",
+  "block.ncb_roadblck.roadsign_motor_vehicles_left": "Roadsign Motor Vehicles Left",
+  "block.ncb_roadblck.roadsign_non_motorized_vehicles_right": "Roadsignnon Motorized Vehicles Right",
+  "block.ncb_roadblck.roadsign_height_limit_3m": "Roadsign Height Limit 3m",
+  "block.ncb_roadblck.roadsign_height_limit_4m": "Roadsign Height Limit 4m",
+  "block.ncb_roadblck.roadsign_height_limit_5m": "Roadsign Height Limit 5m",
+  "block.ncb_roadblck.roadsign_motor_vehicles_right": "Roadsign Motor Vehicles Right",
+  "block.ncb_roadblck.roadsign_non_motorized_vehicles_left": "Roadsign Non Motorized Vehicles Left",
+  "block.ncb_roadblck.roadsign_slow": "Roadsign Slow"
 }
